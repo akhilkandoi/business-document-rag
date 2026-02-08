@@ -1,0 +1,758 @@
+text,label
+how many vacation days do i get,HR
+what is the pto policy,HR
+can i take time off next week,HR
+vacation days?,HR
+wfh policy?,HR
+how do i request sick leave,HR
+parental leave duration,HR
+maternity leave how many weeks,HR
+does company offer paternity leave,HR
+where submit pto request,HR
+can i carry over unused vacation,HR
+time off balance check,HR
+sick leave carryover rules,HR
+do i accrue pto during leave,HR
+wanna work remote tomorrow,HR
+remote work policy full time,HR
+how many days can i work remotely,HR
+hybrid schedule approval needed?,HR
+flexible schedule options available,HR
+compressed work week allowed?,HR
+what if i need emergency time off,HR
+benefits enrollment deadline,HR
+health insurance options,HR
+when does health insurance start,HR
+medical insurance enrollment,HR
+benefits eligibility period,HR
+401k plan details,HR
+company match 401k percentage,HR
+how change retirement contributions,HR
+retirement plan matching,HR
+401k vesting schedule,HR
+life insurance coverage amount,HR
+is disability insurance included,HR
+short term disability coverage,HR
+long term disability benefits,HR
+adding spouse to benefits,HR
+can my partner get benefits,HR
+dependent coverage options,HR
+family health insurance cost,HR
+dental insurance available?,HR
+vision coverage included,HR
+hsa vs ppo which better,HR
+health savings account info,HR
+fsa contribution limits,HR
+dependent care fsa details,HR
+open enrollment dates,HR
+can i change benefits mid year,HR
+beneficiary update process,HR
+life insurance beneficiaries how to change,HR
+employee handbook location,HR
+where find hr policies,HR
+company policies document,HR
+dress code policy,HR
+are jeans ok,HR
+casual fridays?,HR
+what should i wear to work,HR
+code of conduct,HR
+workplace conduct guidelines,HR
+pto for new employees,HR
+when can i start using vacation time,HR
+new hire pto accrual,HR
+paid time off accrual rate,HR
+what happens to unused sick days,HR
+how call in sick,HR
+sick day notification process,HR
+unpaid leave request,HR
+can i take unpaid time off,HR
+leave of absence policy,HR
+bereavement leave how many days,HR
+paid holidays list,HR
+which holidays company observe,HR
+floating holiday policy,HR
+mental health days covered?,HR
+can i take sabbatical,HR
+sabbatical eligibility requirements,HR
+adoption leave available,HR
+fertility treatment leave,HR
+military leave policy,HR
+jury duty leave paid?,HR
+voting time off,HR
+volunteer time off available,HR
+how many volunteer days,HR
+work from home equipment stipend,HR
+remote work reimbursement,HR
+home office allowance,HR
+internet reimbursement wfh,HR
+can i work from another state,HR
+working abroad temporary,HR
+international remote work policy,HR
+do i need approval work from home,HR
+whats deal with flex time,HR
+flextime scheduling,HR
+core hours requirement,HR
+part time benefits eligibility,HR
+changing from full time to part time,HR
+reduced schedule request,HR
+job share opportunities,HR
+workers comp claim how to file,HR
+workplace injury reporting,HR
+pto cash out option,HR
+vacation payout at termination,HR
+performance review schedule,HR
+how often do we get reviews,HR
+annual review process,HR
+performance improvement plan,HR
+pip process details,HR
+promotion criteria,HR
+how to report harassment,HR
+workplace harassment policy,HR
+discrimination complaint process,HR
+whistleblower protection,HR
+employee assistance program,HR
+eap services available,HR
+counseling benefits,HR
+mental health resources,HR
+tuition reimbursement how much,HR
+education assistance program,HR
+professional development budget,HR
+training opportunities,HR
+can company pay for certification,HR
+probation period length,HR
+new hire probationary period,HR
+background check timeline,HR
+drug testing policy,HR
+employee referral bonus,HR
+referral program details,HR
+how much referral bonus,HR
+work anniversary recognition,HR
+service awards program,HR
+lactation room availability,HR
+nursing mothers accommodation,HR
+religious accommodation request,HR
+disability accommodation,HR
+ada compliance process,HR
+tattoo policy workplace,HR
+piercing policy,HR
+personal appearance standards,HR
+remote work tax implications,HR
+relocation assistance available,HR
+moving expense reimbursement,HR
+commuter benefits program,HR
+transit subsidy amount,HR
+parking reimbursement,HR
+bike to work program,HR
+wellness program benefits,HR
+gym membership reimbursement,HR
+fitness subsidy,HR
+smoking cessation program,HR
+vaccine requirements employment,HR
+covid leave policy,HR
+quarantine leave paid,HR
+fmla eligibility,HR
+family medical leave act,HR
+intermittent fmla usage,HR
+pregnancy accommodation,HR
+miscarriage leave,HR
+pet bereavement leave,HR
+unlimited pto really unlimited?,HR
+minimum vacation requirement,HR
+mandatory time off,HR
+blackout dates vacation,HR
+vacation approval process,HR
+how far advance request pto,HR
+can manager deny vacation,HR
+competing vacation requests,HR
+summer hours policy,HR
+early release fridays,HR
+four day work week,HR
+alternative work schedule,HR
+shift differential pay,HR
+on call compensation,HR
+overtime policy exempt employees,HR
+comp time instead of overtime,HR
+personal day vs sick day,HR
+vacaton day limits,HR
+remote wrk guidelines,HR
+insurence options,HR
+benifits package,HR
+retirment plan,HR
+maternaty leave,HR
+paturnity leave,HR
+employy handbook,HR
+sick leve policy,HR
+time of request,HR
+how submit pull request,ENGINEERING
+code review process,ENGINEERING
+who reviews my pr,ENGINEERING
+pr requirements?,ENGINEERING
+pull request template,ENGINEERING
+how many approvals needed merge,ENGINEERING
+git branching standards,ENGINEERING
+how create new branch,ENGINEERING
+branch naming convention,ENGINEERING
+can i merge without code review,ENGINEERING
+pr approval process,ENGINEERING
+code review checklist,ENGINEERING
+how long code review take,ENGINEERING
+who can approve prs,ENGINEERING
+self merge allowed?,ENGINEERING
+deploy to production how,ENGINEERING
+deployment process,ENGINEERING
+when can i release code,ENGINEERING
+production deployment schedule,ENGINEERING
+ci/cd pipeline documentation,ENGINEERING
+how does ci cd work here,ENGINEERING
+pipeline configuration,ENGINEERING
+trigger deployment,ENGINEERING
+can i deploy directly to prod,ENGINEERING
+release procedures,ENGINEERING
+rollback deployment how,ENGINEERING
+production rollback process,ENGINEERING
+hotfix deployment,ENGINEERING
+emergency release protocol,ENGINEERING
+api documentation location,ENGINEERING
+where api docs,ENGINEERING
+rest api documentation,ENGINEERING
+how document my code,ENGINEERING
+documentation standards,ENGINEERING
+code documentation requirements,ENGINEERING
+need write unit tests?,ENGINEERING
+testing policy,ENGINEERING
+unit test requirements,ENGINEERING
+run integration tests,ENGINEERING
+test coverage required,ENGINEERING
+minimum code coverage,ENGINEERING
+where write tests,ENGINEERING
+testing framework used,ENGINEERING
+e2e testing setup,ENGINEERING
+tech stack company uses,ENGINEERING
+what programming languages allowed,ENGINEERING
+technology stack,ENGINEERING
+system architecture overview,ENGINEERING
+architecture docs location,ENGINEERING
+coding standards,ENGINEERING
+best practices codebase,ENGINEERING
+style guide,ENGINEERING
+linting rules,ENGINEERING
+code formatter we use,ENGINEERING
+git workflow,ENGINEERING
+rebase vs merge,ENGINEERING
+how rebase branch,ENGINEERING
+squash commits before merge,ENGINEERING
+commit message format,ENGINEERING
+what build fails,ENGINEERING
+ci pipeline failing,ENGINEERING
+build error resolution,ENGINEERING
+pipeline duration,ENGINEERING
+can skip tests in pr,ENGINEERING
+bypass ci checks,ENGINEERING
+environments available,ENGINEERING
+access staging environment,ENGINEERING
+dev environment setup,ENGINEERING
+local development guide,ENGINEERING
+api rate limits,ENGINEERING
+endpoint rate limiting,ENGINEERING
+how add new endpoint,ENGINEERING
+api versioning strategy,ENGINEERING
+backend framework,ENGINEERING
+frontend framework,ENGINEERING
+database we use,ENGINEERING
+version control system,ENGINEERING
+how often commit code,ENGINEERING
+commit frequency best practice,ENGINEERING
+merge conflicts resolution,ENGINEERING
+resolve merge conflict,ENGINEERING
+code ownership model,ENGINEERING
+codeowners file,ENGINEERING
+pair programming encouraged?,ENGINEERING
+mob programming sessions,ENGINEERING
+technical debt tracking,ENGINEERING
+refactoring guidelines,ENGINEERING
+which ide should use,ENGINEERING
+recommended code editor,ENGINEERING
+editor plugins required,ENGINEERING
+microservices architecture,ENGINEERING
+monolith vs microservices,ENGINEERING
+service communication pattern,ENGINEERING
+backward compatibility requirements,ENGINEERING
+breaking changes protocol,ENGINEERING
+api deprecation process,ENGINEERING
+code freeze dates,ENGINEERING
+release freeze period,ENGINEERING
+postmortem process incidents,ENGINEERING
+incident report template,ENGINEERING
+can use beta libraries,ENGINEERING
+third party dependency approval,ENGINEERING
+dependency update policy,ENGINEERING
+security patch process,ENGINEERING
+open source contribution allowed?,ENGINEERING
+contributing to oss,ENGINEERING
+design review meeting,ENGINEERING
+architecture review process,ENGINEERING
+technical rfc process,ENGINEERING
+design doc template,ENGINEERING
+load testing requirements,ENGINEERING
+performance testing before launch,ENGINEERING
+stress testing guidelines,ENGINEERING
+accessibility standards,ENGINEERING
+wcag compliance level,ENGINEERING
+mobile app deployment,ENGINEERING
+app store release process,ENGINEERING
+feature branch lifetime,ENGINEERING
+stale branch policy,ENGINEERING
+squash vs merge commits,ENGINEERING
+rebase policy,ENGINEERING
+error tracking tool,ENGINEERING
+logging framework,ENGINEERING
+monitoring setup,ENGINEERING
+apm configuration,ENGINEERING
+disaster recovery runbook,ENGINEERING
+backup procedures,ENGINEERING
+on call rotation,ENGINEERING
+pager duty schedule,ENGINEERING
+incident severity levels,ENGINEERING
+sla requirements,ENGINEERING
+database migration process,ENGINEERING
+schema changes approval,ENGINEERING
+feature flags usage,ENGINEERING
+feature toggle documentation,ENGINEERING
+canary deployment,ENGINEERING
+blue green deployment,ENGINEERING
+production access request,ENGINEERING
+need access prod logs,ENGINEERING
+vpn for prod access,ENGINEERING
+graphql vs rest,ENGINEERING
+api design guidelines,ENGINEERING
+security review before release?,ENGINEERING
+penetration testing schedule,ENGINEERING
+vulnerability scanning,ENGINEERING
+secrets management,ENGINEERING
+environment variables config,ENGINEERING
+docker setup,ENGINEERING
+kubernetes deployment,ENGINEERING
+container orchestration,ENGINEERING
+infrastructure as code,ENGINEERING
+terraform usage,ENGINEERING
+cloud provider we use,ENGINEERING
+aws vs azure,ENGINEERING
+serverless architecture,ENGINEERING
+lambda functions deployment,ENGINEERING
+queue system we use,ENGINEERING
+message broker configuration,ENGINEERING
+caching strategy,ENGINEERING
+redis usage guidelines,ENGINEERING
+cdn configuration,ENGINEERING
+static assets deployment,ENGINEERING
+build optimization,ENGINEERING
+bundle size limits,ENGINEERING
+webpack configuration,ENGINEERING
+npm vs yarn,ENGINEERING
+package manager preference,ENGINEERING
+node version required,ENGINEERING
+python version standard,ENGINEERING
+java version policy,ENGINEERING
+trunk based development,ENGINEERING
+git flow vs trunk,ENGINEERING
+can push to main,ENGINEERING
+protected branches,ENGINEERING
+branch protection rules,ENGINEERING
+code review turnaround time,ENGINEERING
+pr size limit,ENGINEERING
+pul request,ENGINEERING
+deploi to prod,ENGINEERING
+ci cd setup,ENGINEERING
+merge conflics,ENGINEERING
+apii documentation,ENGINEERING
+unit test coverage,ENGINEERING
+intergration tests,ENGINEERING
+git workflo,ENGINEERING
+code reveiw,ENGINEERING
+submit expense report,FINANCE
+where upload receipts,FINANCE
+get reimbursed expenses,FINANCE
+expense limit?,FINANCE
+reimbursement timeline,FINANCE
+what expenses can submit,FINANCE
+reimbursement how long,FINANCE
+need receipts all expenses,FINANCE
+expense policy,FINANCE
+can expense meals,FINANCE
+meal reimbursement limit,FINANCE
+submit travel expenses,FINANCE
+travel expense report,FINANCE
+per diem rate,FINANCE
+how much per diem,FINANCE
+daily allowance travel,FINANCE
+expense mileage,FINANCE
+mileage reimbursement rate,FINANCE
+personal car business use,FINANCE
+book hotel business travel,FINANCE
+hotel expense limit,FINANCE
+accommodation booking,FINANCE
+can book own flights,FINANCE
+expense airfare,FINANCE
+flight booking policy,FINANCE
+meal expenses covered,FINANCE
+expense client dinners,FINANCE
+business meal guidelines,FINANCE
+department budget,FINANCE
+request budget approval,FINANCE
+budget allocation,FINANCE
+approval before purchasing,FINANCE
+purchase approval threshold,FINANCE
+create purchase order,FINANCE
+po process,FINANCE
+purchase order system,FINANCE
+submit invoice,FINANCE
+invoice submission process,FINANCE
+vendor invoice payment,FINANCE
+add new vendor,FINANCE
+vendor onboarding,FINANCE
+vendor approval process,FINANCE
+get corporate credit card,FINANCE
+corporate card application,FINANCE
+company credit card policy,FINANCE
+what use corporate card for,FINANCE
+credit card limits,FINANCE
+corp card spending limit,FINANCE
+reconcile corporate card,FINANCE
+credit card statement due,FINANCE
+expense reconciliation,FINANCE
+request payment vendor,FINANCE
+vendor payment process,FINANCE
+cash advance travel,FINANCE
+request cash advance,FINANCE
+travel advance request,FINANCE
+documentation needed expenses,FINANCE
+expense report form,FINANCE
+categorize expenses,FINANCE
+expense categories,FINANCE
+lost receipt what now,FINANCE
+missing receipt policy,FINANCE
+expense uber rides,FINANCE
+rideshare reimbursement,FINANCE
+transportation costs reimbursable,FINANCE
+expense parking,FINANCE
+parking reimbursement,FINANCE
+approval large purchases,FINANCE
+who approves expense reports,FINANCE
+expense approval workflow,FINANCE
+spend without approval limit,FINANCE
+over budget what happens,FINANCE
+budget overrun protocol,FINANCE
+expense conference fees,FINANCE
+conference registration reimbursement,FINANCE
+pay invoice,FINANCE
+payment methods accepted,FINANCE
+vendor payment timeline,FINANCE
+direct deposit setup,FINANCE
+payroll direct deposit,FINANCE
+pay stub access,FINANCE
+view paystubs online,FINANCE
+overtime pay calculation,FINANCE
+ot compensation,FINANCE
+bonus payout schedule,FINANCE
+when bonuses paid,FINANCE
+commission structure,FINANCE
+commission payment terms,FINANCE
+relocation expenses covered?,FINANCE
+moving expense policy,FINANCE
+sign on bonus repayment,FINANCE
+signing bonus terms,FINANCE
+professional development budget,FINANCE
+training budget annual,FINANCE
+certification reimbursement,FINANCE
+exam fee reimbursement,FINANCE
+gym membership subsidy,FINANCE
+fitness reimbursement,FINANCE
+coworking space expense,FINANCE
+home office furniture budget,FINANCE
+office equipment reimbursement,FINANCE
+client entertainment guidelines,FINANCE
+entertainment expense policy,FINANCE
+team lunch expense,FINANCE
+team building expense,FINANCE
+gift card expense ok?,FINANCE
+gift policy vendors,FINANCE
+subscription services approval,FINANCE
+software subscription expense,FINANCE
+saas purchase approval,FINANCE
+expense currency conversion,FINANCE
+foreign currency expenses,FINANCE
+international expense rates,FINANCE
+vat reclaim expenses,FINANCE
+tax refund international,FINANCE
+consultant payment terms,FINANCE
+contractor invoice process,FINANCE
+freelancer payment,FINANCE
+capital expenditure threshold,FINANCE
+capex vs opex,FINANCE
+asset capitalization policy,FINANCE
+year end close deadlines,FINANCE
+fiscal year end,FINANCE
+audit preparation,FINANCE
+financial audit schedule,FINANCE
+financial reporting calendar,FINANCE
+monthly close schedule,FINANCE
+cost center allocation,FINANCE
+charge code usage,FINANCE
+project code expenses,FINANCE
+travel booking system,FINANCE
+corporate travel portal,FINANCE
+preferred vendors travel,FINANCE
+petty cash available?,FINANCE
+petty cash request,FINANCE
+international travel expenses,FINANCE
+overseas travel policy,FINANCE
+alcohol clients expense,FINANCE
+alcohol expense policy,FINANCE
+expense tips gratuity,FINANCE
+tipping guidelines expenses,FINANCE
+split expenses projects,FINANCE
+allocate expense multiple departments,FINANCE
+taxi vs uber policy,FINANCE
+ground transportation preference,FINANCE
+rental car policy,FINANCE
+car rental expense,FINANCE
+equipment purchase request,FINANCE
+hardware purchase approval,FINANCE
+company amex benefits,FINANCE
+credit card rewards policy,FINANCE
+international per diem,FINANCE
+overseas daily allowance,FINANCE
+expense report rejected why,FINANCE
+expense denial reason,FINANCE
+resubmit expense report,FINANCE
+mobile phone reimbursement,FINANCE
+cell phone stipend,FINANCE
+internet home expense,FINANCE
+home internet reimbursement,FINANCE
+client gift limits,FINANCE
+gift expense threshold,FINANCE
+conference who pays,FINANCE
+event registration expense,FINANCE
+mileage tracker app,FINANCE
+mileage log requirements,FINANCE
+quarterly budget review,FINANCE
+budget variance analysis,FINANCE
+forecast vs actual,FINANCE
+wire transfer request,FINANCE
+ach payment setup,FINANCE
+check request process,FINANCE
+paper check issuance,FINANCE
+1099 contractor form,FINANCE
+w9 vendor form,FINANCE
+tax documentation vendors,FINANCE
+expence report,FINANCE
+reciept upload,FINANCE
+reimburse expenses,FINANCE
+travle expenses,FINANCE
+perdiem rate,FINANCE
+milage reimbursment,FINANCE
+coporate card,FINANCE
+purchas order,FINANCE
+invioce submit,FINANCE
+vender payment,FINANCE
+first day what do,GENERAL
+onboarding location,GENERAL
+new hire orientation,GENERAL
+orientation schedule,GENERAL
+first day bring what,GENERAL
+employee badge,GENERAL
+get id badge,GENERAL
+where park,GENERAL
+parking location,GENERAL
+free parking office,GENERAL
+parking pass,GENERAL
+office access,GENERAL
+building entry,GENERAL
+office hours,GENERAL
+work hours,GENERAL
+get laptop,GENERAL
+equipment pickup,GENERAL
+contact for it equipment,GENERAL
+request new equipment,GENERAL
+it help desk,GENERAL
+tech support contact,GENERAL
+reset password,GENERAL
+password reset,GENERAL
+forgot password,GENERAL
+company mission,GENERAL
+mission statement,GENERAL
+company values,GENERAL
+core values,GENERAL
+company culture,GENERAL
+culture values,GENERAL
+what company do,GENERAL
+company products,GENERAL
+who ceo,GENERAL
+leadership team,GENERAL
+executive team,GENERAL
+org chart,GENERAL
+organizational structure,GENERAL
+find contact info,GENERAL
+employee directory,GENERAL
+staff directory,GENERAL
+who my manager,GENERAL
+supervisor name,GENERAL
+who report to,GENERAL
+reporting structure,GENERAL
+contact about payroll,GENERAL
+payroll department,GENERAL
+facilities issues,GENERAL
+building maintenance,GENERAL
+join team,GENERAL
+team structure,GENERAL
+teams at company,GENERAL
+departments list,GENERAL
+main office location,GENERAL
+office address,GENERAL
+multiple offices,GENERAL
+office locations,GENERAL
+what floor hr,GENERAL
+hr department location,GENERAL
+cafeteria location,GENERAL
+lunch room,GENERAL
+free coffee,GENERAL
+kitchen amenities,GENERAL
+office amenities,GENERAL
+building facilities,GENERAL
+book conference room,GENERAL
+meeting room reservation,GENERAL
+reserve meeting space,GENERAL
+meeting rooms find,GENERAL
+conference room booking system,GENERAL
+badge doesn't work,GENERAL
+access card issue,GENERAL
+building access after hours,GENERAL
+weekend office access,GENERAL
+gym office,GENERAL
+fitness center,GENERAL
+wifi password,GENERAL
+wireless network,GENERAL
+connect network,GENERAL
+network access,GENERAL
+ask about it problems,GENERAL
+technical support,GENERAL
+software needed installed,GENERAL
+required software,GENERAL
+access company email,GENERAL
+email setup,GENERAL
+onboarding checklist,GENERAL
+new hire checklist,GENERAL
+when get paid,GENERAL
+pay schedule,GENERAL
+payday,GENERAL
+who founded company,GENERAL
+company founder,GENERAL
+company history,GENERAL
+company background,GENERAL
+how many employees,GENERAL
+company size,GENERAL
+headcount,GENERAL
+nda signing,GENERAL
+confidentiality agreement,GENERAL
+company newsletter,GENERAL
+internal communications,GENERAL
+internal job postings,GENERAL
+open positions,GENERAL
+career opportunities,GENERAL
+mentorship program,GENERAL
+mentor matching,GENERAL
+lunch learn schedule,GENERAL
+learning sessions,GENERAL
+town hall frequency,GENERAL
+all hands meeting,GENERAL
+anonymous feedback,GENERAL
+suggestion box,GENERAL
+office closure days,GENERAL
+company holidays,GENERAL
+smoking area,GENERAL
+designated smoking,GENERAL
+bike storage,GENERAL
+bicycle parking,GENERAL
+shower facilities,GENERAL
+locker room,GENERAL
+kitchen supplies,GENERAL
+break room supplies,GENERAL
+recycling bins,GENERAL
+waste disposal,GENERAL
+noise level policy,GENERAL
+quiet areas,GENERAL
+phone booth reservation,GENERAL
+privacy pod booking,GENERAL
+standing desk request,GENERAL
+ergonomic equipment,GENERAL
+dual monitor setup,GENERAL
+monitor request,GENERAL
+headphones provided,GENERAL
+audio equipment,GENERAL
+office supplies ordering,GENERAL
+stationery request,GENERAL
+business cards request,GENERAL
+business card order,GENERAL
+name plate desk,GENERAL
+desk nameplate,GENERAL
+company logo usage,GENERAL
+brand guidelines,GENERAL
+social media policy,GENERAL
+social media guidelines,GENERAL
+patent assignment,GENERAL
+ip agreement,GENERAL
+exit interview,GENERAL
+offboarding process,GENERAL
+laptop setup,GENERAL
+computer configuration,GENERAL
+cant login,GENERAL
+login issues,GENERAL
+meeting room booking,GENERAL
+room schedule,GENERAL
+company swag,GENERAL
+branded merchandise,GENERAL
+all hands when,GENERAL
+company meeting schedule,GENERAL
+slack channels,GENERAL
+communication channels,GENERAL
+org structure,GENERAL
+hierarchy chart,GENERAL
+vpn setup,GENERAL
+remote access,GENERAL
+printer floor,GENERAL
+copy machine location,GENERAL
+building security,GENERAL
+security desk,GENERAL
+emergency contacts,GENERAL
+emergency procedures,GENERAL
+company timeline,GENERAL
+company milestones,GENERAL
+values statement,GENERAL
+diversity initiatives,GENERAL
+dei programs,GENERAL
+employee resource groups,GENERAL
+erg list,GENERAL
+mail room,GENERAL
+package delivery,GENERAL
+visitor policy,GENERAL
+guest check in,GENERAL
+company events,GENERAL
+social calendar,GENERAL
+feedback system,GENERAL
+employee survey,GENERAL
+employee discounts,GENERAL
+perks program,GENERAL
+wellness program,GENERAL
+health initiatives,GENERAL
+transfer departments,GENERAL
+internal mobility,GENERAL
+first day time,GENERAL
+onboaring process,GENERAL
+employe badge,GENERAL
+ofice hours,GENERAL
+compny mission,GENERAL
+organiztion chart,GENERAL
+employe directory,GENERAL
+wifi pasword,GENERAL
+acces email,GENERAL
+paking location,GENERAL
