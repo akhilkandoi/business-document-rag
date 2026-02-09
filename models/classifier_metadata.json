@@ -1,12 +1,12 @@
 {
   "model_type": "LogisticRegression",
-  "accuracy": 0.6973684210526315,
-  "num_features": 1671,
+  "accuracy": 0.7550200803212851,
+  "num_features": 2270,
   "categories": [
     "HR",
     "ENGINEERING",
     "FINANCE",
     "GENERAL"
   ],
-  "training_samples": 757
+  "training_samples": 1242
 }

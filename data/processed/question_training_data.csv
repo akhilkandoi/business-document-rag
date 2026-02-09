@@ -1,758 +1,1243 @@
 text,label
 how many vacation days do i get,HR
 what is the pto policy,HR
-can i take time off next week,HR
-vacation days?,HR
-wfh policy?,HR
-how do i request sick leave,HR
-parental leave duration,HR
-maternity leave how many weeks,HR
-does company offer paternity leave,HR
-where submit pto request,HR
-can i carry over unused vacation,HR
-time off balance check,HR
-sick leave carryover rules,HR
-do i accrue pto during leave,HR
-wanna work remote tomorrow,HR
-remote work policy full time,HR
-how many days can i work remotely,HR
-hybrid schedule approval needed?,HR
-flexible schedule options available,HR
-compressed work week allowed?,HR
-what if i need emergency time off,HR
-benefits enrollment deadline,HR
-health insurance options,HR
-when does health insurance start,HR
-medical insurance enrollment,HR
-benefits eligibility period,HR
-401k plan details,HR
-company match 401k percentage,HR
-how change retirement contributions,HR
-retirement plan matching,HR
-401k vesting schedule,HR
-life insurance coverage amount,HR
-is disability insurance included,HR
-short term disability coverage,HR
-long term disability benefits,HR
-adding spouse to benefits,HR
-can my partner get benefits,HR
-dependent coverage options,HR
-family health insurance cost,HR
-dental insurance available?,HR
-vision coverage included,HR
-hsa vs ppo which better,HR
-health savings account info,HR
-fsa contribution limits,HR
-dependent care fsa details,HR
-open enrollment dates,HR
+how do i request time off,HR
+can i carry over unused vacation days,HR
+how much pto do i accrue per pay period,HR
+what are the company holidays,HR
+do we get the day after thanksgiving off,HR
+how do i call in sick,HR
+what is the sick leave policy,HR
+how many sick days can i take,HR
+can i use pto for sick days,HR
+what is the parental leave policy,HR
+how much maternity leave do i get,HR
+do fathers get paternity leave,HR
+how long is paid parental leave,HR
+when does parental leave start,HR
+can i take parental leave for adoption,HR
+what benefits do foster parents get,HR
+how do i apply for parental leave,HR
+do i need to notify anyone before taking parental leave,HR
+what health insurance plans are available,HR
+whats the difference between ppo and hmo,HR
+how much does health insurance cost,HR
+when can i enroll in benefits,HR
+what is the benefits enrollment deadline,HR
+can i add my spouse to health insurance,HR
+how do i add dependents to my insurance,HR
+does the company offer dental insurance,HR
+is vision coverage included,HR
+what does the dental plan cover,HR
+how much is the deductible for the ppo plan,HR
+what is the out of pocket maximum,HR
+do i need a referral to see a specialist,HR
+can i use out of network providers,HR
+what is covered under preventive care,HR
+are mental health services covered,HR
+how much is a primary care visit copay,HR
+what is the emergency room copay,HR
+does insurance cover prescriptions,HR
+how much do generic drugs cost,HR
+what is the 401k match,HR
+how much does the company match for retirement,HR
+when can i enroll in the 401k,HR
+how do i sign up for 401k,HR
+what is the vesting schedule for 401k,HR
+am i vested in my 401k immediately,HR
+can i take a loan from my 401k,HR
+what are the 401k contribution limits,HR
+should i do traditional or roth 401k,HR
+what investment options are available in 401k,HR
+how do i change my 401k contribution,HR
+can i roll over my old 401k,HR
+what happens to my 401k if i leave,HR
+who do i contact about retirement planning,HR
+is there life insurance,HR
+how much life insurance coverage do i have,HR
+can i buy additional life insurance,HR
+does the company offer disability insurance,HR
+what is short term disability,HR
+how long does short term disability last,HR
+what percentage of salary does disability pay,HR
+how do i file a disability claim,HR
+can i work remotely,HR
+what is the remote work policy,HR
+how many days can i work from home,HR
+do i need approval to work remotely,HR
+whats the hybrid work schedule,HR
+how many days do i need to be in office,HR
+can i work from anywhere,HR
+what equipment do i get for remote work,HR
+is there a home office stipend,HR
+can i expense my internet for remote work,HR
+what are the expectations for remote workers,HR
+do i need to be available during specific hours when remote,HR
+can i travel while working remotely,HR
+what is the dress code,HR
+can i wear jeans to work,HR
+is there a casual friday,HR
+what should i wear to client meetings,HR
+are sneakers allowed,HR
+whats business casual here,HR
+can i wear shorts in the summer,HR
+is there a formal dress code policy,HR
+where can i find the employee handbook,HR
+what is the code of conduct,HR
+what are the company policies,HR
+is there a harassment policy,HR
+how do i report harassment,HR
+what is the ethics hotline number,HR
+can i have a side job,HR
+what is the outside employment policy,HR
+do i need to disclose freelance work,HR
+what is the social media policy,HR
+can i post about work on social media,HR
+am i allowed to drink alcohol at work events,HR
+what is the substance abuse policy,HR
+can i bring my dog to work,HR
+are pets allowed in the office,HR
+what is the visitor policy,HR
+can my family visit the office,HR
+how do i refer someone for a job,HR
+is there a referral bonus,HR
+how much is the employee referral bonus,HR
+what is the performance review process,HR
+when are performance reviews,HR
+how often do we have one on ones,HR
+what are okrs,HR
+how do i set goals,HR
+when do i get a raise,HR
+how does the promotion process work,HR
+what are the career paths available,HR
+is there internal mobility,HR
+can i transfer to another department,HR
+how long do i need to be in role before transferring,HR
+what professional development is offered,HR
+is there tuition reimbursement,HR
+how much education reimbursement do i get,HR
+what is covered under education reimbursement,HR
+can i get reimbursed for certifications,HR
+how do i apply for tuition reimbursement,HR
+do i have to stay if i get tuition reimbursement,HR
+what happens if i leave after getting education reimbursement,HR
+is there a learning budget,HR
+can i take courses on company time,HR
+what conferences can i attend,HR
+is there mentorship available,HR
+how do i find a mentor,HR
+what is the gym reimbursement,HR
+how much do you reimburse for gym membership,HR
+how do i submit gym reimbursement,HR
+what counts as eligible gym expenses,HR
+can i get reimbursed for yoga classes,HR
+does peloton count for gym reimbursement,HR
+is the gym reimbursement taxable,HR
+when do i get gym reimbursement,HR
+what is the employee assistance program,HR
+how do i access eap,HR
+is eap confidential,HR
+does eap cost anything,HR
+what services does eap provide,HR
+can i get counseling through eap,HR
+what wellness programs are available,HR
+is there a wellness stipend,HR
+do we get stock options,HR
+how do stock options work,HR
+what is the vesting schedule for stock,HR
+when do my rsus vest,HR
+how are bonuses calculated,HR
+when do we get bonuses,HR
+is there an annual bonus,HR
+what is the commuter benefits program,HR
+can i get pre tax parking,HR
+how do i sign up for commuter benefits,HR
+is there a transportation stipend,HR
+do you offer childcare assistance,HR
+is there backup childcare,HR
+what is dependent care fsa,HR
+how much can i contribute to dependent care fsa,HR
+can i use fsa for daycare,HR
+what is a flexible spending account,HR
+how does fsa work,HR
+can i have both hsa and fsa,HR
+what can i use hsa for,HR
+does the company contribute to hsa,HR
+how do i access my pay stubs,HR
+where can i see my w2,HR
+when do w2s come out,HR
+how do i update my direct deposit,HR
+how do i change my address,HR
+where do i update my tax withholdings,HR
+how do i change my w4,HR
+who do i contact for payroll questions,HR
+when is payday,HR
+how often do we get paid,HR
+what if theres an error on my paycheck,HR
+how do i update my emergency contact,HR
+where do i add my beneficiaries,HR
+how do i change my benefits,HR
+what is a qualifying life event,HR
 can i change benefits mid year,HR
-beneficiary update process,HR
-life insurance beneficiaries how to change,HR
-employee handbook location,HR
-where find hr policies,HR
-company policies document,HR
-dress code policy,HR
-are jeans ok,HR
-casual fridays?,HR
-what should i wear to work,HR
-code of conduct,HR
-workplace conduct guidelines,HR
-pto for new employees,HR
-when can i start using vacation time,HR
-new hire pto accrual,HR
-paid time off accrual rate,HR
-what happens to unused sick days,HR
-how call in sick,HR
-sick day notification process,HR
-unpaid leave request,HR
+when is open enrollment,HR
+how long is open enrollment period,HR
+what happens if i miss open enrollment,HR
+can i waive health insurance,HR
+what if i have insurance through my spouse,HR
+do i need to provide proof of other coverage,HR
+what is cobra,HR
+how long does cobra last,HR
+how much does cobra cost,HR
+what happens to my benefits if i get terminated,HR
+do benefits continue during leave of absence,HR
+what is fmla,HR
+am i eligible for fmla,HR
+how long is fmla leave,HR
+is fmla paid or unpaid,HR
+how do i request fmla,HR
+can i take intermittent fmla,HR
+what is medical leave,HR
+how do i request a leave of absence,HR
+is there paid medical leave,HR
 can i take unpaid time off,HR
-leave of absence policy,HR
-bereavement leave how many days,HR
-paid holidays list,HR
-which holidays company observe,HR
-floating holiday policy,HR
-mental health days covered?,HR
-can i take sabbatical,HR
-sabbatical eligibility requirements,HR
-adoption leave available,HR
-fertility treatment leave,HR
-military leave policy,HR
-jury duty leave paid?,HR
-voting time off,HR
-volunteer time off available,HR
-how many volunteer days,HR
-work from home equipment stipend,HR
-remote work reimbursement,HR
-home office allowance,HR
-internet reimbursement wfh,HR
-can i work from another state,HR
-working abroad temporary,HR
-international remote work policy,HR
-do i need approval work from home,HR
-whats deal with flex time,HR
-flextime scheduling,HR
-core hours requirement,HR
-part time benefits eligibility,HR
-changing from full time to part time,HR
-reduced schedule request,HR
-job share opportunities,HR
-workers comp claim how to file,HR
-workplace injury reporting,HR
-pto cash out option,HR
-vacation payout at termination,HR
-performance review schedule,HR
-how often do we get reviews,HR
-annual review process,HR
-performance improvement plan,HR
-pip process details,HR
-promotion criteria,HR
-how to report harassment,HR
-workplace harassment policy,HR
-discrimination complaint process,HR
-whistleblower protection,HR
-employee assistance program,HR
-eap services available,HR
-counseling benefits,HR
-mental health resources,HR
-tuition reimbursement how much,HR
-education assistance program,HR
-professional development budget,HR
-training opportunities,HR
-can company pay for certification,HR
-probation period length,HR
-new hire probationary period,HR
-background check timeline,HR
-drug testing policy,HR
-employee referral bonus,HR
-referral program details,HR
-how much referral bonus,HR
-work anniversary recognition,HR
-service awards program,HR
-lactation room availability,HR
-nursing mothers accommodation,HR
-religious accommodation request,HR
-disability accommodation,HR
-ada compliance process,HR
-tattoo policy workplace,HR
-piercing policy,HR
-personal appearance standards,HR
-remote work tax implications,HR
-relocation assistance available,HR
-moving expense reimbursement,HR
-commuter benefits program,HR
-transit subsidy amount,HR
-parking reimbursement,HR
-bike to work program,HR
-wellness program benefits,HR
-gym membership reimbursement,HR
-fitness subsidy,HR
-smoking cessation program,HR
-vaccine requirements employment,HR
-covid leave policy,HR
-quarantine leave paid,HR
-fmla eligibility,HR
-family medical leave act,HR
-intermittent fmla usage,HR
-pregnancy accommodation,HR
-miscarriage leave,HR
-pet bereavement leave,HR
-unlimited pto really unlimited?,HR
-minimum vacation requirement,HR
-mandatory time off,HR
-blackout dates vacation,HR
-vacation approval process,HR
-how far advance request pto,HR
-can manager deny vacation,HR
-competing vacation requests,HR
-summer hours policy,HR
-early release fridays,HR
-four day work week,HR
-alternative work schedule,HR
-shift differential pay,HR
-on call compensation,HR
-overtime policy exempt employees,HR
-comp time instead of overtime,HR
-personal day vs sick day,HR
-vacaton day limits,HR
-remote wrk guidelines,HR
-insurence options,HR
-benifits package,HR
-retirment plan,HR
-maternaty leave,HR
-paturnity leave,HR
-employy handbook,HR
-sick leve policy,HR
-time of request,HR
-how submit pull request,ENGINEERING
-code review process,ENGINEERING
-who reviews my pr,ENGINEERING
-pr requirements?,ENGINEERING
-pull request template,ENGINEERING
-how many approvals needed merge,ENGINEERING
-git branching standards,ENGINEERING
-how create new branch,ENGINEERING
-branch naming convention,ENGINEERING
-can i merge without code review,ENGINEERING
-pr approval process,ENGINEERING
-code review checklist,ENGINEERING
-how long code review take,ENGINEERING
-who can approve prs,ENGINEERING
-self merge allowed?,ENGINEERING
-deploy to production how,ENGINEERING
-deployment process,ENGINEERING
-when can i release code,ENGINEERING
-production deployment schedule,ENGINEERING
-ci/cd pipeline documentation,ENGINEERING
-how does ci cd work here,ENGINEERING
-pipeline configuration,ENGINEERING
-trigger deployment,ENGINEERING
-can i deploy directly to prod,ENGINEERING
-release procedures,ENGINEERING
-rollback deployment how,ENGINEERING
-production rollback process,ENGINEERING
-hotfix deployment,ENGINEERING
-emergency release protocol,ENGINEERING
-api documentation location,ENGINEERING
-where api docs,ENGINEERING
-rest api documentation,ENGINEERING
-how document my code,ENGINEERING
-documentation standards,ENGINEERING
-code documentation requirements,ENGINEERING
-need write unit tests?,ENGINEERING
-testing policy,ENGINEERING
-unit test requirements,ENGINEERING
-run integration tests,ENGINEERING
-test coverage required,ENGINEERING
-minimum code coverage,ENGINEERING
-where write tests,ENGINEERING
-testing framework used,ENGINEERING
-e2e testing setup,ENGINEERING
-tech stack company uses,ENGINEERING
-what programming languages allowed,ENGINEERING
-technology stack,ENGINEERING
-system architecture overview,ENGINEERING
-architecture docs location,ENGINEERING
-coding standards,ENGINEERING
-best practices codebase,ENGINEERING
-style guide,ENGINEERING
-linting rules,ENGINEERING
-code formatter we use,ENGINEERING
-git workflow,ENGINEERING
-rebase vs merge,ENGINEERING
-how rebase branch,ENGINEERING
-squash commits before merge,ENGINEERING
-commit message format,ENGINEERING
-what build fails,ENGINEERING
-ci pipeline failing,ENGINEERING
-build error resolution,ENGINEERING
-pipeline duration,ENGINEERING
-can skip tests in pr,ENGINEERING
-bypass ci checks,ENGINEERING
-environments available,ENGINEERING
-access staging environment,ENGINEERING
-dev environment setup,ENGINEERING
-local development guide,ENGINEERING
-api rate limits,ENGINEERING
-endpoint rate limiting,ENGINEERING
-how add new endpoint,ENGINEERING
-api versioning strategy,ENGINEERING
-backend framework,ENGINEERING
-frontend framework,ENGINEERING
-database we use,ENGINEERING
-version control system,ENGINEERING
-how often commit code,ENGINEERING
-commit frequency best practice,ENGINEERING
-merge conflicts resolution,ENGINEERING
-resolve merge conflict,ENGINEERING
-code ownership model,ENGINEERING
-codeowners file,ENGINEERING
-pair programming encouraged?,ENGINEERING
-mob programming sessions,ENGINEERING
-technical debt tracking,ENGINEERING
-refactoring guidelines,ENGINEERING
-which ide should use,ENGINEERING
-recommended code editor,ENGINEERING
-editor plugins required,ENGINEERING
-microservices architecture,ENGINEERING
-monolith vs microservices,ENGINEERING
-service communication pattern,ENGINEERING
-backward compatibility requirements,ENGINEERING
-breaking changes protocol,ENGINEERING
-api deprecation process,ENGINEERING
-code freeze dates,ENGINEERING
-release freeze period,ENGINEERING
-postmortem process incidents,ENGINEERING
-incident report template,ENGINEERING
-can use beta libraries,ENGINEERING
-third party dependency approval,ENGINEERING
-dependency update policy,ENGINEERING
-security patch process,ENGINEERING
-open source contribution allowed?,ENGINEERING
-contributing to oss,ENGINEERING
-design review meeting,ENGINEERING
-architecture review process,ENGINEERING
-technical rfc process,ENGINEERING
-design doc template,ENGINEERING
-load testing requirements,ENGINEERING
-performance testing before launch,ENGINEERING
-stress testing guidelines,ENGINEERING
-accessibility standards,ENGINEERING
-wcag compliance level,ENGINEERING
-mobile app deployment,ENGINEERING
-app store release process,ENGINEERING
-feature branch lifetime,ENGINEERING
-stale branch policy,ENGINEERING
-squash vs merge commits,ENGINEERING
-rebase policy,ENGINEERING
-error tracking tool,ENGINEERING
-logging framework,ENGINEERING
-monitoring setup,ENGINEERING
-apm configuration,ENGINEERING
-disaster recovery runbook,ENGINEERING
-backup procedures,ENGINEERING
-on call rotation,ENGINEERING
-pager duty schedule,ENGINEERING
-incident severity levels,ENGINEERING
-sla requirements,ENGINEERING
-database migration process,ENGINEERING
-schema changes approval,ENGINEERING
-feature flags usage,ENGINEERING
-feature toggle documentation,ENGINEERING
-canary deployment,ENGINEERING
-blue green deployment,ENGINEERING
-production access request,ENGINEERING
-need access prod logs,ENGINEERING
-vpn for prod access,ENGINEERING
-graphql vs rest,ENGINEERING
-api design guidelines,ENGINEERING
-security review before release?,ENGINEERING
-penetration testing schedule,ENGINEERING
-vulnerability scanning,ENGINEERING
-secrets management,ENGINEERING
-environment variables config,ENGINEERING
-docker setup,ENGINEERING
-kubernetes deployment,ENGINEERING
-container orchestration,ENGINEERING
-infrastructure as code,ENGINEERING
-terraform usage,ENGINEERING
-cloud provider we use,ENGINEERING
-aws vs azure,ENGINEERING
-serverless architecture,ENGINEERING
-lambda functions deployment,ENGINEERING
-queue system we use,ENGINEERING
-message broker configuration,ENGINEERING
-caching strategy,ENGINEERING
-redis usage guidelines,ENGINEERING
-cdn configuration,ENGINEERING
-static assets deployment,ENGINEERING
-build optimization,ENGINEERING
-bundle size limits,ENGINEERING
-webpack configuration,ENGINEERING
-npm vs yarn,ENGINEERING
-package manager preference,ENGINEERING
-node version required,ENGINEERING
-python version standard,ENGINEERING
-java version policy,ENGINEERING
-trunk based development,ENGINEERING
-git flow vs trunk,ENGINEERING
-can push to main,ENGINEERING
-protected branches,ENGINEERING
-branch protection rules,ENGINEERING
-code review turnaround time,ENGINEERING
-pr size limit,ENGINEERING
-pul request,ENGINEERING
-deploi to prod,ENGINEERING
-ci cd setup,ENGINEERING
-merge conflics,ENGINEERING
-apii documentation,ENGINEERING
-unit test coverage,ENGINEERING
-intergration tests,ENGINEERING
-git workflo,ENGINEERING
-code reveiw,ENGINEERING
-submit expense report,FINANCE
-where upload receipts,FINANCE
-get reimbursed expenses,FINANCE
-expense limit?,FINANCE
-reimbursement timeline,FINANCE
-what expenses can submit,FINANCE
-reimbursement how long,FINANCE
-need receipts all expenses,FINANCE
-expense policy,FINANCE
-can expense meals,FINANCE
-meal reimbursement limit,FINANCE
-submit travel expenses,FINANCE
-travel expense report,FINANCE
-per diem rate,FINANCE
-how much per diem,FINANCE
-daily allowance travel,FINANCE
-expense mileage,FINANCE
-mileage reimbursement rate,FINANCE
-personal car business use,FINANCE
-book hotel business travel,FINANCE
-hotel expense limit,FINANCE
-accommodation booking,FINANCE
-can book own flights,FINANCE
-expense airfare,FINANCE
-flight booking policy,FINANCE
-meal expenses covered,FINANCE
-expense client dinners,FINANCE
-business meal guidelines,FINANCE
-department budget,FINANCE
-request budget approval,FINANCE
-budget allocation,FINANCE
-approval before purchasing,FINANCE
-purchase approval threshold,FINANCE
-create purchase order,FINANCE
-po process,FINANCE
-purchase order system,FINANCE
-submit invoice,FINANCE
-invoice submission process,FINANCE
-vendor invoice payment,FINANCE
-add new vendor,FINANCE
-vendor onboarding,FINANCE
-vendor approval process,FINANCE
-get corporate credit card,FINANCE
-corporate card application,FINANCE
-company credit card policy,FINANCE
-what use corporate card for,FINANCE
-credit card limits,FINANCE
-corp card spending limit,FINANCE
-reconcile corporate card,FINANCE
-credit card statement due,FINANCE
-expense reconciliation,FINANCE
-request payment vendor,FINANCE
-vendor payment process,FINANCE
-cash advance travel,FINANCE
-request cash advance,FINANCE
-travel advance request,FINANCE
-documentation needed expenses,FINANCE
-expense report form,FINANCE
-categorize expenses,FINANCE
-expense categories,FINANCE
-lost receipt what now,FINANCE
-missing receipt policy,FINANCE
-expense uber rides,FINANCE
-rideshare reimbursement,FINANCE
-transportation costs reimbursable,FINANCE
-expense parking,FINANCE
-parking reimbursement,FINANCE
-approval large purchases,FINANCE
-who approves expense reports,FINANCE
-expense approval workflow,FINANCE
-spend without approval limit,FINANCE
-over budget what happens,FINANCE
-budget overrun protocol,FINANCE
-expense conference fees,FINANCE
-conference registration reimbursement,FINANCE
-pay invoice,FINANCE
-payment methods accepted,FINANCE
-vendor payment timeline,FINANCE
-direct deposit setup,FINANCE
-payroll direct deposit,FINANCE
-pay stub access,FINANCE
-view paystubs online,FINANCE
-overtime pay calculation,FINANCE
-ot compensation,FINANCE
-bonus payout schedule,FINANCE
-when bonuses paid,FINANCE
-commission structure,FINANCE
-commission payment terms,FINANCE
-relocation expenses covered?,FINANCE
-moving expense policy,FINANCE
-sign on bonus repayment,FINANCE
-signing bonus terms,FINANCE
-professional development budget,FINANCE
-training budget annual,FINANCE
-certification reimbursement,FINANCE
-exam fee reimbursement,FINANCE
-gym membership subsidy,FINANCE
-fitness reimbursement,FINANCE
-coworking space expense,FINANCE
-home office furniture budget,FINANCE
-office equipment reimbursement,FINANCE
-client entertainment guidelines,FINANCE
-entertainment expense policy,FINANCE
-team lunch expense,FINANCE
-team building expense,FINANCE
-gift card expense ok?,FINANCE
-gift policy vendors,FINANCE
-subscription services approval,FINANCE
-software subscription expense,FINANCE
-saas purchase approval,FINANCE
-expense currency conversion,FINANCE
-foreign currency expenses,FINANCE
-international expense rates,FINANCE
-vat reclaim expenses,FINANCE
-tax refund international,FINANCE
-consultant payment terms,FINANCE
-contractor invoice process,FINANCE
-freelancer payment,FINANCE
-capital expenditure threshold,FINANCE
-capex vs opex,FINANCE
-asset capitalization policy,FINANCE
-year end close deadlines,FINANCE
-fiscal year end,FINANCE
-audit preparation,FINANCE
-financial audit schedule,FINANCE
-financial reporting calendar,FINANCE
-monthly close schedule,FINANCE
-cost center allocation,FINANCE
-charge code usage,FINANCE
-project code expenses,FINANCE
-travel booking system,FINANCE
-corporate travel portal,FINANCE
-preferred vendors travel,FINANCE
-petty cash available?,FINANCE
-petty cash request,FINANCE
-international travel expenses,FINANCE
-overseas travel policy,FINANCE
-alcohol clients expense,FINANCE
-alcohol expense policy,FINANCE
-expense tips gratuity,FINANCE
-tipping guidelines expenses,FINANCE
-split expenses projects,FINANCE
-allocate expense multiple departments,FINANCE
-taxi vs uber policy,FINANCE
-ground transportation preference,FINANCE
-rental car policy,FINANCE
-car rental expense,FINANCE
-equipment purchase request,FINANCE
-hardware purchase approval,FINANCE
-company amex benefits,FINANCE
-credit card rewards policy,FINANCE
-international per diem,FINANCE
-overseas daily allowance,FINANCE
-expense report rejected why,FINANCE
-expense denial reason,FINANCE
-resubmit expense report,FINANCE
-mobile phone reimbursement,FINANCE
-cell phone stipend,FINANCE
-internet home expense,FINANCE
-home internet reimbursement,FINANCE
-client gift limits,FINANCE
-gift expense threshold,FINANCE
-conference who pays,FINANCE
-event registration expense,FINANCE
-mileage tracker app,FINANCE
-mileage log requirements,FINANCE
-quarterly budget review,FINANCE
-budget variance analysis,FINANCE
-forecast vs actual,FINANCE
-wire transfer request,FINANCE
-ach payment setup,FINANCE
-check request process,FINANCE
-paper check issuance,FINANCE
-1099 contractor form,FINANCE
-w9 vendor form,FINANCE
-tax documentation vendors,FINANCE
-expence report,FINANCE
-reciept upload,FINANCE
-reimburse expenses,FINANCE
-travle expenses,FINANCE
-perdiem rate,FINANCE
-milage reimbursment,FINANCE
-coporate card,FINANCE
-purchas order,FINANCE
-invioce submit,FINANCE
-vender payment,FINANCE
-first day what do,GENERAL
-onboarding location,GENERAL
-new hire orientation,GENERAL
-orientation schedule,GENERAL
-first day bring what,GENERAL
-employee badge,GENERAL
-get id badge,GENERAL
-where park,GENERAL
-parking location,GENERAL
-free parking office,GENERAL
-parking pass,GENERAL
-office access,GENERAL
-building entry,GENERAL
-office hours,GENERAL
-work hours,GENERAL
-get laptop,GENERAL
-equipment pickup,GENERAL
-contact for it equipment,GENERAL
-request new equipment,GENERAL
-it help desk,GENERAL
-tech support contact,GENERAL
-reset password,GENERAL
-password reset,GENERAL
-forgot password,GENERAL
-company mission,GENERAL
-mission statement,GENERAL
-company values,GENERAL
-core values,GENERAL
-company culture,GENERAL
-culture values,GENERAL
-what company do,GENERAL
-company products,GENERAL
-who ceo,GENERAL
-leadership team,GENERAL
-executive team,GENERAL
-org chart,GENERAL
-organizational structure,GENERAL
-find contact info,GENERAL
-employee directory,GENERAL
-staff directory,GENERAL
-who my manager,GENERAL
-supervisor name,GENERAL
-who report to,GENERAL
-reporting structure,GENERAL
-contact about payroll,GENERAL
-payroll department,GENERAL
-facilities issues,GENERAL
-building maintenance,GENERAL
-join team,GENERAL
-team structure,GENERAL
-teams at company,GENERAL
-departments list,GENERAL
-main office location,GENERAL
-office address,GENERAL
-multiple offices,GENERAL
-office locations,GENERAL
-what floor hr,GENERAL
-hr department location,GENERAL
-cafeteria location,GENERAL
-lunch room,GENERAL
-free coffee,GENERAL
-kitchen amenities,GENERAL
-office amenities,GENERAL
-building facilities,GENERAL
-book conference room,GENERAL
-meeting room reservation,GENERAL
-reserve meeting space,GENERAL
-meeting rooms find,GENERAL
-conference room booking system,GENERAL
-badge doesn't work,GENERAL
-access card issue,GENERAL
-building access after hours,GENERAL
-weekend office access,GENERAL
-gym office,GENERAL
-fitness center,GENERAL
-wifi password,GENERAL
-wireless network,GENERAL
-connect network,GENERAL
-network access,GENERAL
-ask about it problems,GENERAL
-technical support,GENERAL
-software needed installed,GENERAL
-required software,GENERAL
-access company email,GENERAL
-email setup,GENERAL
-onboarding checklist,GENERAL
-new hire checklist,GENERAL
-when get paid,GENERAL
-pay schedule,GENERAL
-payday,GENERAL
-who founded company,GENERAL
-company founder,GENERAL
-company history,GENERAL
-company background,GENERAL
-how many employees,GENERAL
-company size,GENERAL
-headcount,GENERAL
-nda signing,GENERAL
-confidentiality agreement,GENERAL
-company newsletter,GENERAL
-internal communications,GENERAL
-internal job postings,GENERAL
-open positions,GENERAL
-career opportunities,GENERAL
-mentorship program,GENERAL
-mentor matching,GENERAL
-lunch learn schedule,GENERAL
-learning sessions,GENERAL
-town hall frequency,GENERAL
-all hands meeting,GENERAL
-anonymous feedback,GENERAL
-suggestion box,GENERAL
-office closure days,GENERAL
-company holidays,GENERAL
-smoking area,GENERAL
-designated smoking,GENERAL
-bike storage,GENERAL
-bicycle parking,GENERAL
-shower facilities,GENERAL
-locker room,GENERAL
-kitchen supplies,GENERAL
-break room supplies,GENERAL
-recycling bins,GENERAL
-waste disposal,GENERAL
-noise level policy,GENERAL
-quiet areas,GENERAL
-phone booth reservation,GENERAL
-privacy pod booking,GENERAL
-standing desk request,GENERAL
-ergonomic equipment,GENERAL
-dual monitor setup,GENERAL
-monitor request,GENERAL
-headphones provided,GENERAL
-audio equipment,GENERAL
-office supplies ordering,GENERAL
-stationery request,GENERAL
-business cards request,GENERAL
-business card order,GENERAL
-name plate desk,GENERAL
-desk nameplate,GENERAL
-company logo usage,GENERAL
-brand guidelines,GENERAL
-social media policy,GENERAL
-social media guidelines,GENERAL
-patent assignment,GENERAL
-ip agreement,GENERAL
-exit interview,GENERAL
-offboarding process,GENERAL
-laptop setup,GENERAL
-computer configuration,GENERAL
-cant login,GENERAL
-login issues,GENERAL
-meeting room booking,GENERAL
-room schedule,GENERAL
-company swag,GENERAL
-branded merchandise,GENERAL
-all hands when,GENERAL
-company meeting schedule,GENERAL
-slack channels,GENERAL
-communication channels,GENERAL
-org structure,GENERAL
-hierarchy chart,GENERAL
-vpn setup,GENERAL
-remote access,GENERAL
-printer floor,GENERAL
-copy machine location,GENERAL
-building security,GENERAL
-security desk,GENERAL
-emergency contacts,GENERAL
-emergency procedures,GENERAL
-company timeline,GENERAL
-company milestones,GENERAL
-values statement,GENERAL
-diversity initiatives,GENERAL
-dei programs,GENERAL
-employee resource groups,GENERAL
-erg list,GENERAL
-mail room,GENERAL
-package delivery,GENERAL
-visitor policy,GENERAL
-guest check in,GENERAL
-company events,GENERAL
-social calendar,GENERAL
-feedback system,GENERAL
-employee survey,GENERAL
-employee discounts,GENERAL
-perks program,GENERAL
-wellness program,GENERAL
-health initiatives,GENERAL
-transfer departments,GENERAL
-internal mobility,GENERAL
-first day time,GENERAL
-onboaring process,GENERAL
-employe badge,GENERAL
-ofice hours,GENERAL
-compny mission,GENERAL
-organiztion chart,GENERAL
-employe directory,GENERAL
-wifi pasword,GENERAL
-acces email,GENERAL
-paking location,GENERAL
+what is a sabbatical,HR
+does the company offer sabbaticals,HR
+how do i request a sabbatical,HR
+is there volunteer time off,HR
+how many volunteer days do i get,HR
+can i volunteer during work hours,HR
+what is the bereavement policy,HR
+how much bereavement leave do i get,HR
+is bereavement leave paid,HR
+who qualifies for bereavement leave,HR
+what is jury duty policy,HR
+do i get paid for jury duty,HR
+how do i report jury duty,HR
+what happens if i get called for jury duty,HR
+is there military leave,HR
+what are my rights if im called to active duty,HR
+how does voting time off work,HR
+do i get time off to vote,HR
+what is the resignation process,HR
+how much notice do i need to give,HR
+do i need to give two weeks notice,HR
+what happens to my pto when i quit,HR
+will i get paid out for unused vacation,HR
+how do i resign,HR
+who do i tell if im resigning,HR
+what is the exit interview process,HR
+do i have to do an exit interview,HR
+when do i get my final paycheck,HR
+what equipment do i return when i leave,HR
+how do i return my laptop,HR
+what is at will employment,HR
+can i be fired without cause,HR
+what is the termination policy,HR
+what happens if i get laid off,HR
+is there severance pay,HR
+how much severance do i get,HR
+what is a pip,HR
+what happens during a performance improvement plan,HR
+how long does a pip last,HR
+can i be fired during probation period,HR
+how long is the probation period,HR
+what is the probationary period,HR
+am i eligible for benefits during probation,HR
+what is the equal employment opportunity policy,HR
+is there discrimination protection,HR
+how do i report discrimination,HR
+what is the diversity policy,HR
+are there employee resource groups,HR
+what ergs are available,HR
+how do i join an erg,HR
+is there a women in tech group,HR
+what dei initiatives does the company have,HR
+is there unconscious bias training,HR
+what training is required,HR
+do i need to complete compliance training,HR
+when is the compliance training deadline,HR
+what is the anti harassment training,HR
+how long does security training take,HR
+where do i find required training,HR
+what is the learning management system,HR
+how do i access the lms,HR
+are there linkedin learning courses,HR
+can i take online courses,HR
+what is the background check policy,HR
+do you do background checks,HR
+what shows up on background check,HR
+how long does background check take,HR
+what is the drug testing policy,HR
+do you drug test,HR
+when do you drug test,HR
+is there random drug testing,HR
+what is the confidentiality policy,HR
+do i need to sign an nda,HR
+what is the non disclosure agreement,HR
+what is intellectual property policy,HR
+who owns the code i write,HR
+can i work on personal projects,HR
+what is the moonlighting policy,HR
+can i have two jobs,HR
+do i need approval for consulting work,HR
+what is the conflict of interest policy,HR
+how do i report a conflict of interest,HR
+can i invest in competitors,HR
+what is the workplace safety policy,HR
+how do i report a safety concern,HR
+what do i do in an emergency,HR
+where are the emergency exits,HR
+what is the evacuation procedure,HR
+who are the fire wardens,HR
+is there first aid training,HR
+where is the first aid kit,HR
+what is the ergonomics policy,HR
+can i get a standing desk,HR
+how do i request ergonomic equipment,HR
+is there a workplace accommodation process,HR
+how do i request disability accommodation,HR
+what is the ada policy,HR
+can i bring a service animal to work,HR
+is the office wheelchair accessible,HR
+what lactation rooms are available,HR
+where can i pump at work,HR
+is there a mothers room,HR
+what lactation support is provided,HR
+can i get a breast pump,HR
+how long can i take for pumping breaks,HR
+how do i create a pull request,ENGINEERING
+what is the code review process,ENGINEERING
+how many approvals do i need for a pr,ENGINEERING
+who reviews my code,ENGINEERING
+how long does code review take,ENGINEERING
+what is the pr template,ENGINEERING
+how do i request a code review,ENGINEERING
+what should i include in a pull request,ENGINEERING
+can i merge my own pr,ENGINEERING
+how do i respond to code review feedback,ENGINEERING
+what is the git workflow,ENGINEERING
+how do i create a feature branch,ENGINEERING
+what branch should i branch from,ENGINEERING
+how do i name my branch,ENGINEERING
+what is the branching strategy,ENGINEERING
+can i force push,ENGINEERING
+when should i rebase vs merge,ENGINEERING
+how do i rebase my branch,ENGINEERING
+what is the difference between develop and main,ENGINEERING
+how do i merge to main,ENGINEERING
+what is a hotfix branch,ENGINEERING
+how do i create a hotfix,ENGINEERING
+what is a release branch,ENGINEERING
+how do i create a release,ENGINEERING
+how often should i rebase,ENGINEERING
+what is the commit message format,ENGINEERING
+how should i write commit messages,ENGINEERING
+do i need to link jira tickets in commits,ENGINEERING
+should i sign my commits,ENGINEERING
+how do i sign commits with gpg,ENGINEERING
+what goes in gitignore,ENGINEERING
+can i commit directly to main,ENGINEERING
+what branches are protected,ENGINEERING
+how do i deploy to production,ENGINEERING
+what is the deployment process,ENGINEERING
+how do i deploy to staging,ENGINEERING
+when does staging auto deploy,ENGINEERING
+how do i approve a production deployment,ENGINEERING
+what is the deployment pipeline,ENGINEERING
+how does ci cd work,ENGINEERING
+what is the cicd pipeline,ENGINEERING
+how long does deployment take,ENGINEERING
+what is blue green deployment,ENGINEERING
+how do i rollback a deployment,ENGINEERING
+what happens if deployment fails,ENGINEERING
+how do i monitor a deployment,ENGINEERING
+what is the deployment checklist,ENGINEERING
+do i need approval to deploy,ENGINEERING
+who approves production deployments,ENGINEERING
+how do i deploy a hotfix,ENGINEERING
+what is the emergency deployment process,ENGINEERING
+can i deploy on friday,ENGINEERING
+what are the deployment windows,ENGINEERING
+how do i run database migrations,ENGINEERING
+what is the migration process,ENGINEERING
+should migrations be backwards compatible,ENGINEERING
+how do i test migrations,ENGINEERING
+what happens if a migration fails,ENGINEERING
+can i delete columns immediately,ENGINEERING
+how do i rollback a migration,ENGINEERING
+what is the on call rotation,ENGINEERING
+when am i on call,ENGINEERING
+how long is the on call shift,ENGINEERING
+what do i do when on call,ENGINEERING
+how do i acknowledge a pagerduty alert,ENGINEERING
+who is the secondary on call,ENGINEERING
+when should i escalate an incident,ENGINEERING
+what is a sev 1 incident,ENGINEERING
+how do i declare an incident,ENGINEERING
+what is the incident response process,ENGINEERING
+how often do i update during an incident,ENGINEERING
+what is a post mortem,ENGINEERING
+how do i write a postmortem,ENGINEERING
+when is the postmortem due,ENGINEERING
+do i get paid extra for on call,ENGINEERING
+what is the on call compensation,ENGINEERING
+can i swap on call shifts,ENGINEERING
+how do i trade on call with someone,ENGINEERING
+what if i cant be on call,ENGINEERING
+what is our tech stack,ENGINEERING
+what language do we use,ENGINEERING
+do we use python or node,ENGINEERING
+what version of python do we use,ENGINEERING
+what framework do we use for backend,ENGINEERING
+is this a django or flask shop,ENGINEERING
+what do we use for frontend,ENGINEERING
+do we use react or vue,ENGINEERING
+what is our database,ENGINEERING
+do we use postgres or mysql,ENGINEERING
+what do we use for caching,ENGINEERING
+do we use redis,ENGINEERING
+what cloud provider do we use,ENGINEERING
+are we on aws or gcp,ENGINEERING
+what aws services do we use,ENGINEERING
+how do we do container orchestration,ENGINEERING
+do we use kubernetes or ecs,ENGINEERING
+what is our infrastructure setup,ENGINEERING
+do we use terraform,ENGINEERING
+what is iac,ENGINEERING
+how do we manage infrastructure,ENGINEERING
+what monitoring tools do we use,ENGINEERING
+do we use datadog,ENGINEERING
+how do i access datadog,ENGINEERING
+what is our logging solution,ENGINEERING
+where do i find logs,ENGINEERING
+how do i check cloudwatch logs,ENGINEERING
+what is sentry,ENGINEERING
+how do i track errors,ENGINEERING
+where do i see error tracking,ENGINEERING
+what is our ci tool,ENGINEERING
+do we use circleci or github actions,ENGINEERING
+how do i run tests,ENGINEERING
+what is the test command,ENGINEERING
+how do i run unit tests,ENGINEERING
+what is our test coverage target,ENGINEERING
+how do i check test coverage,ENGINEERING
+what testing framework do we use,ENGINEERING
+do we use pytest or unittest,ENGINEERING
+how do i write integration tests,ENGINEERING
+what are e2e tests,ENGINEERING
+do we have end to end tests,ENGINEERING
+how do i run cypress tests,ENGINEERING
+what is the test pyramid,ENGINEERING
+should i write tests before or after code,ENGINEERING
+what is tdd,ENGINEERING
+do we do test driven development,ENGINEERING
+how many tests should i write,ENGINEERING
+what makes a good test,ENGINEERING
+how do i mock dependencies,ENGINEERING
+what mocking library do we use,ENGINEERING
+how do i test api endpoints,ENGINEERING
+what is our api documentation,ENGINEERING
+where can i find api docs,ENGINEERING
+do we use swagger,ENGINEERING
+what is openapi,ENGINEERING
+how do i document an api,ENGINEERING
+what should be in api documentation,ENGINEERING
+how do i test apis locally,ENGINEERING
+what is postman,ENGINEERING
+can i use postman for testing,ENGINEERING
+how do i call internal apis,ENGINEERING
+what is rest,ENGINEERING
+do we use rest or graphql,ENGINEERING
+what is our api versioning strategy,ENGINEERING
+how do i version apis,ENGINEERING
+what is api rate limiting,ENGINEERING
+how many api calls can i make,ENGINEERING
+what is the rate limit,ENGINEERING
+how do we handle authentication,ENGINEERING
+what auth system do we use,ENGINEERING
+do we use oauth,ENGINEERING
+how do jwt tokens work,ENGINEERING
+how long do access tokens last,ENGINEERING
+what is refresh token rotation,ENGINEERING
+how do we do authorization,ENGINEERING
+what is rbac,ENGINEERING
+how do roles and permissions work,ENGINEERING
+what is our code style guide,ENGINEERING
+what linter do we use,ENGINEERING
+how do i run the linter,ENGINEERING
+what is black formatter,ENGINEERING
+how do i format my code,ENGINEERING
+what is the line length limit,ENGINEERING
+do we use type hints,ENGINEERING
+what is mypy,ENGINEERING
+how do i run type checking,ENGINEERING
+what are our coding standards,ENGINEERING
+do we follow pep 8,ENGINEERING
+what naming conventions do we use,ENGINEERING
+should i use camelcase or snake_case,ENGINEERING
+how do i name variables,ENGINEERING
+what are best practices for naming,ENGINEERING
+should i comment my code,ENGINEERING
+how much should i comment,ENGINEERING
+what is a docstring,ENGINEERING
+how do i write docstrings,ENGINEERING
+what docstring format do we use,ENGINEERING
+should i document every function,ENGINEERING
+what goes in code documentation,ENGINEERING
+how do i document complex logic,ENGINEERING
+what is the project structure,ENGINEERING
+where do i put my code,ENGINEERING
+how is the codebase organized,ENGINEERING
+what goes in the apps folder,ENGINEERING
+where do i add new models,ENGINEERING
+how do i create a new app,ENGINEERING
+what is the backend folder structure,ENGINEERING
+where do tests go,ENGINEERING
+how should i organize my tests,ENGINEERING
+what is the frontend structure,ENGINEERING
+where do components go,ENGINEERING
+how big should components be,ENGINEERING
+should i use class or functional components,ENGINEERING
+what is our react version,ENGINEERING
+do we use hooks,ENGINEERING
+what is redux toolkit,ENGINEERING
+how do we manage state,ENGINEERING
+should i use redux or context,ENGINEERING
+what is react query,ENGINEERING
+how do i fetch data in react,ENGINEERING
+what css framework do we use,ENGINEERING
+do we use tailwind,ENGINEERING
+how do i style components,ENGINEERING
+can i use inline styles,ENGINEERING
+what is our design system,ENGINEERING
+where are the ui components,ENGINEERING
+how do i use the component library,ENGINEERING
+what is storybook,ENGINEERING
+how do i add to storybook,ENGINEERING
+how do i set up my local environment,ENGINEERING
+what do i need installed locally,ENGINEERING
+how do i run the app locally,ENGINEERING
+what is the local setup process,ENGINEERING
+how do i install dependencies,ENGINEERING
+what is npm install,ENGINEERING
+should i use npm or yarn,ENGINEERING
+how do i run the dev server,ENGINEERING
+what port does the app run on,ENGINEERING
+how do i access the local database,ENGINEERING
+how do i seed the database,ENGINEERING
+is there test data,ENGINEERING
+how do i get sample data,ENGINEERING
+what environment variables do i need,ENGINEERING
+where do env vars go,ENGINEERING
+how do i set up dotenv,ENGINEERING
+what goes in the env file,ENGINEERING
+should i commit env files,ENGINEERING
+where do i find api keys,ENGINEERING
+how do i get aws credentials,ENGINEERING
+what is the vpn,ENGINEERING
+do i need vpn for development,ENGINEERING
+how do i connect to vpn,ENGINEERING
+what is docker,ENGINEERING
+do we use docker for local dev,ENGINEERING
+how do i run docker compose,ENGINEERING
+what containers do i need running,ENGINEERING
+how do i debug locally,ENGINEERING
+what debugger should i use,ENGINEERING
+how do i set breakpoints,ENGINEERING
+can i use print statements for debugging,ENGINEERING
+what logging should i use,ENGINEERING
+how do i add logging,ENGINEERING
+what log level should i use,ENGINEERING
+how verbose should logs be,ENGINEERING
+should i log pii,ENGINEERING
+what shouldnt be logged,ENGINEERING
+how do i handle errors,ENGINEERING
+what is our error handling strategy,ENGINEERING
+should i use try catch everywhere,ENGINEERING
+how do i raise exceptions,ENGINEERING
+what exceptions should i catch,ENGINEERING
+how do i create custom exceptions,ENGINEERING
+what is error propagation,ENGINEERING
+how do i handle api errors,ENGINEERING
+what status codes should i return,ENGINEERING
+when do i use 400 vs 500,ENGINEERING
+what is a 422 error,ENGINEERING
+how do we do input validation,ENGINEERING
+what validation library do we use,ENGINEERING
+how do i validate form data,ENGINEERING
+what is pydantic,ENGINEERING
+how do i use pydantic models,ENGINEERING
+what is serialization,ENGINEERING
+how do i serialize data,ENGINEERING
+what is the orm,ENGINEERING
+how do i query the database,ENGINEERING
+what is django orm,ENGINEERING
+how do i write raw sql,ENGINEERING
+should i use raw sql or orm,ENGINEERING
+how do i optimize database queries,ENGINEERING
+what is n+1 query problem,ENGINEERING
+how do i avoid n+1 queries,ENGINEERING
+what is select_related,ENGINEERING
+when should i use prefetch_related,ENGINEERING
+how do i add database indexes,ENGINEERING
+what fields should be indexed,ENGINEERING
+how do i check slow queries,ENGINEERING
+what is query performance,ENGINEERING
+how do i cache data,ENGINEERING
+when should i use caching,ENGINEERING
+what is our caching strategy,ENGINEERING
+how long should cache ttl be,ENGINEERING
+how do i invalidate cache,ENGINEERING
+what is cache stampede,ENGINEERING
+how do we handle cache warming,ENGINEERING
+what is redis used for,ENGINEERING
+how do i use redis,ENGINEERING
+what data structures does redis support,ENGINEERING
+how do background jobs work,ENGINEERING
+what is celery,ENGINEERING
+how do i create a celery task,ENGINEERING
+when should i use async tasks,ENGINEERING
+how do i schedule recurring tasks,ENGINEERING
+what is celery beat,ENGINEERING
+how do i monitor celery tasks,ENGINEERING
+what happens if a task fails,ENGINEERING
+how do i retry failed tasks,ENGINEERING
+what is our security policy,ENGINEERING
+how do i prevent sql injection,ENGINEERING
+what is xss,ENGINEERING
+how do i prevent cross site scripting,ENGINEERING
+what is csrf,ENGINEERING
+how do we handle csrf tokens,ENGINEERING
+should i sanitize user input,ENGINEERING
+how do i validate user input securely,ENGINEERING
+what is our password policy,ENGINEERING
+how should i hash passwords,ENGINEERING
+what is bcrypt,ENGINEERING
+how many salt rounds for bcrypt,ENGINEERING
+should i store passwords in plain text,ENGINEERING
+how do i encrypt sensitive data,ENGINEERING
+what encryption should i use,ENGINEERING
+what is aes 256,ENGINEERING
+how do we manage secrets,ENGINEERING
+where do secrets go,ENGINEERING
+what is aws secrets manager,ENGINEERING
+how do i access secrets,ENGINEERING
+can i hardcode api keys,ENGINEERING
+should secrets be in git,ENGINEERING
+how often should secrets rotate,ENGINEERING
+what is our performance budget,ENGINEERING
+how fast should pages load,ENGINEERING
+what is acceptable api latency,ENGINEERING
+how do i measure performance,ENGINEERING
+what is lighthouse score,ENGINEERING
+how do i optimize bundle size,ENGINEERING
+what is code splitting,ENGINEERING
+how do i lazy load components,ENGINEERING
+should i optimize images,ENGINEERING
+what image format should i use,ENGINEERING
+how do i compress images,ENGINEERING
+what is webp,ENGINEERING
+how do we use cdn,ENGINEERING
+what is cloudfront,ENGINEERING
+where are static assets hosted,ENGINEERING
+how do i access the engineering handbook,ENGINEERING
+how do i submit an expense report,FINANCE
+where do i submit expenses,FINANCE
+what is the expense reimbursement process,FINANCE
+how long does expense reimbursement take,FINANCE
+when will i get reimbursed,FINANCE
+how do i get reimbursed for expenses,FINANCE
+what expenses are reimbursable,FINANCE
+can i expense lunch,FINANCE
+can i expense meals,FINANCE
+what meals can i expense,FINANCE
+can i expense client dinners,FINANCE
+is alcohol reimbursable,FINANCE
+can i expense drinks,FINANCE
+can i expense coffee,FINANCE
+what office supplies are reimbursable,FINANCE
+can i buy office supplies,FINANCE
+how do i expense office supplies,FINANCE
+do i need receipts for expenses,FINANCE
+what receipts do i need,FINANCE
+what if i lost my receipt,FINANCE
+can i submit expenses without receipts,FINANCE
+how much can i expense without a receipt,FINANCE
+what is the receipt threshold,FINANCE
+do i need itemized receipts,FINANCE
+when do i need to submit expenses,FINANCE
+what is the expense submission deadline,FINANCE
+how old can expenses be,FINANCE
+can i submit old expenses,FINANCE
+what happens if i submit expenses late,FINANCE
+who approves expenses,FINANCE
+does my manager approve expenses,FINANCE
+what is the expense approval process,FINANCE
+how long does expense approval take,FINANCE
+what if my expense is rejected,FINANCE
+why was my expense denied,FINANCE
+can i resubmit a rejected expense,FINANCE
+how do i check expense status,FINANCE
+where can i see my expense reports,FINANCE
+how do i track my expenses,FINANCE
+what is the travel policy,FINANCE
+how do i book travel,FINANCE
+do i need approval to travel,FINANCE
+who approves business travel,FINANCE
+how far in advance should i book travel,FINANCE
+can i book my own flights,FINANCE
+what class can i fly,FINANCE
+can i fly business class,FINANCE
+when can i fly business class,FINANCE
+what is the flight policy,FINANCE
+can i use my airline miles,FINANCE
+can i keep frequent flyer miles,FINANCE
+what baggage fees are covered,FINANCE
+can i expense checked bags,FINANCE
+what about seat selection fees,FINANCE
+can i pay for preferred seating,FINANCE
+what hotel can i book,FINANCE
+how much can i spend on hotels,FINANCE
+what is the hotel rate limit,FINANCE
+can i stay at expensive hotels,FINANCE
+what is the per night hotel limit,FINANCE
+can i book airbnb,FINANCE
+is airbnb allowed,FINANCE
+can i use vrbo for business travel,FINANCE
+what hotel amenities are covered,FINANCE
+can i expense hotel wifi,FINANCE
+is hotel parking reimbursable,FINANCE
+can i expense minibar,FINANCE
+are resort fees covered,FINANCE
+what is the per diem rate,FINANCE
+how much is per diem,FINANCE
+what is per diem for meals,FINANCE
+how much for breakfast per diem,FINANCE
+what is lunch per diem,FINANCE
+how much is dinner per diem,FINANCE
+can i use per diem instead of receipts,FINANCE
+do i need receipts if i take per diem,FINANCE
+what is actual expense method,FINANCE
+should i use per diem or actual expenses,FINANCE
+what is international per diem,FINANCE
+how does per diem work for travel days,FINANCE
+do i get full per diem on first day,FINANCE
+what is the car rental policy,FINANCE
+can i rent a car,FINANCE
+what size car can i rent,FINANCE
+can i rent an suv,FINANCE
+what rental car is allowed,FINANCE
+should i get rental car insurance,FINANCE
+is rental car insurance covered,FINANCE
+can i decline rental car insurance,FINANCE
+what if i damage the rental car,FINANCE
+how do i return the rental car,FINANCE
+should i refuel the rental car,FINANCE
+can i expense gas,FINANCE
+what is the mileage reimbursement rate,FINANCE
+how much per mile reimbursement,FINANCE
+can i use my personal car for business,FINANCE
+how do i calculate mileage,FINANCE
+what is reimbursable mileage,FINANCE
+can i expense parking,FINANCE
+are parking fees reimbursable,FINANCE
+can i expense tolls,FINANCE
+what about parking tickets,FINANCE
+can i expense traffic violations,FINANCE
+can i take uber for business,FINANCE
+is uber reimbursable,FINANCE
+can i expense lyft,FINANCE
+what rideshare is allowed,FINANCE
+can i take taxi,FINANCE
+how much can i tip drivers,FINANCE
+is tipping reimbursable,FINANCE
+what is a reasonable tip,FINANCE
+can i expense public transportation,FINANCE
+is subway fare reimbursable,FINANCE
+can i expense train tickets,FINANCE
+what is the international travel policy,FINANCE
+do i need approval for international travel,FINANCE
+who approves international trips,FINANCE
+can i expense passport fees,FINANCE
+are visa fees reimbursable,FINANCE
+can i expense travel vaccinations,FINANCE
+what about international phone charges,FINANCE
+can i expense international data,FINANCE
+how do currency exchanges work,FINANCE
+what exchange rate do i use,FINANCE
+can i use my credit card internationally,FINANCE
+what is the corporate card policy,FINANCE
+how do i get a corporate credit card,FINANCE
+who is eligible for corporate card,FINANCE
+what can i use corporate card for,FINANCE
+can i use corporate card for personal,FINANCE
+what if i accidentally used corporate card,FINANCE
+how do i reconcile corporate card,FINANCE
+when is corporate card due,FINANCE
+what happens if i dont reconcile,FINANCE
+can i get cash back on corporate card,FINANCE
+what rewards does corporate card have,FINANCE
+who pays corporate card bill,FINANCE
+what if my corporate card is declined,FINANCE
+how do i report lost corporate card,FINANCE
+what is my spending limit,FINANCE
+is there a card limit,FINANCE
+what is the budget approval process,FINANCE
+how do i request budget,FINANCE
+who approves budgets,FINANCE
+what is my approval authority,FINANCE
+how much can i approve,FINANCE
+what expenses need approval,FINANCE
+do i need approval for purchases,FINANCE
+what is the approval threshold,FINANCE
+how much can i spend without approval,FINANCE
+who approves large purchases,FINANCE
+what needs cfo approval,FINANCE
+when do i need ceo approval,FINANCE
+what is a purchase order,FINANCE
+do i need a po,FINANCE
+how do i create a purchase order,FINANCE
+when is a po required,FINANCE
+what purchases need a po,FINANCE
+can i buy without a po,FINANCE
+what is the po process,FINANCE
+how long does po approval take,FINANCE
+who approves purchase orders,FINANCE
+what is a three way match,FINANCE
+what is invoice processing,FINANCE
+how do invoices get paid,FINANCE
+how long until invoices are paid,FINANCE
+what is the payment schedule,FINANCE
+when do vendors get paid,FINANCE
+what are payment terms,FINANCE
+what is net 30,FINANCE
+what is 2 10 net 30,FINANCE
+should we take early payment discounts,FINANCE
+how do i add a new vendor,FINANCE
+what is vendor setup,FINANCE
+what do i need to set up a vendor,FINANCE
+how long does vendor setup take,FINANCE
+what is a w9 form,FINANCE
+do vendors need to provide w9,FINANCE
+what vendor information is required,FINANCE
+how do i change vendor banking info,FINANCE
+what is the vendor payment process,FINANCE
+how are vendors paid,FINANCE
+do we pay by check or ach,FINANCE
+what is ach payment,FINANCE
+how long do wire transfers take,FINANCE
+what is the wire transfer fee,FINANCE
+when should i use wire transfer,FINANCE
+what is the budget process,FINANCE
+when is budget due,FINANCE
+how do i submit my budget,FINANCE
+what goes in the budget,FINANCE
+what is budget planning,FINANCE
+when does budget planning start,FINANCE
+what is the fiscal year,FINANCE
+when does fiscal year start,FINANCE
+how do i track budget,FINANCE
+where can i see budget vs actual,FINANCE
+what is budget variance,FINANCE
+what if im over budget,FINANCE
+how do i request additional budget,FINANCE
+can i transfer budget between categories,FINANCE
+what is a budget amendment,FINANCE
+how do i amend my budget,FINANCE
+what is contingency budget,FINANCE
+how do i access contingency funds,FINANCE
+what is capital expenditure,FINANCE
+what is capex,FINANCE
+how do i request capex,FINANCE
+what needs capex approval,FINANCE
+what is operating expense,FINANCE
+what is opex,FINANCE
+whats the difference between capex and opex,FINANCE
+what is depreciation,FINANCE
+how is depreciation calculated,FINANCE
+what is straight line depreciation,FINANCE
+what is useful life,FINANCE
+how long do we depreciate assets,FINANCE
+what is the capitalization threshold,FINANCE
+what gets capitalized,FINANCE
+when should i capitalize vs expense,FINANCE
+what is an asset,FINANCE
+how do i record an asset purchase,FINANCE
+what is asset tagging,FINANCE
+do assets need tags,FINANCE
+what is asset tracking,FINANCE
+how do i dispose of an asset,FINANCE
+what is asset disposal process,FINANCE
+who approves asset disposal,FINANCE
+what is the petty cash policy,FINANCE
+how do i get petty cash,FINANCE
+where is petty cash,FINANCE
+what can i use petty cash for,FINANCE
+how much petty cash can i take,FINANCE
+do i need a receipt for petty cash,FINANCE
+how do i replenish petty cash,FINANCE
+what is cash advance,FINANCE
+can i get a cash advance,FINANCE
+how do i request cash advance,FINANCE
+when should i use cash advance,FINANCE
+what is the invoice approval process,FINANCE
+how do i approve an invoice,FINANCE
+what should i check on invoices,FINANCE
+how do i reject an invoice,FINANCE
+what if invoice doesnt match po,FINANCE
+what is a disputed invoice,FINANCE
+how do i dispute an invoice,FINANCE
+what happens to disputed invoices,FINANCE
+what are payment controls,FINANCE
+what is segregation of duties,FINANCE
+why cant i approve my own expenses,FINANCE
+what is dual authorization,FINANCE
+when is dual approval required,FINANCE
+what is fraud prevention,FINANCE
+how do we prevent fraud,FINANCE
+what is positive pay,FINANCE
+how do i report suspected fraud,FINANCE
+what happens if i see fraud,FINANCE
+is there an ethics hotline,FINANCE
+what is the month end close,FINANCE
+when does month end close,FINANCE
+what is the close calendar,FINANCE
+when are financials due,FINANCE
+what is the close deadline,FINANCE
+what is account reconciliation,FINANCE
+how do i reconcile my accounts,FINANCE
+when are reconciliations due,FINANCE
+what is a bank reconciliation,FINANCE
+how often do we reconcile,FINANCE
+what is a journal entry,FINANCE
+how do i post a journal entry,FINANCE
+who can post journal entries,FINANCE
+what is an accrual,FINANCE
+when should i accrue expenses,FINANCE
+what is prepaid expense,FINANCE
+how do i record prepaid expenses,FINANCE
+what is deferred revenue,FINANCE
+what is revenue recognition,FINANCE
+when do we recognize revenue,FINANCE
+what is gaap,FINANCE
+do we follow gaap,FINANCE
+what accounting standards do we use,FINANCE
+what is the chart of accounts,FINANCE
+how do i find the right gl account,FINANCE
+what gl code should i use,FINANCE
+what is a gl account,FINANCE
+how do i code expenses,FINANCE
+what is the correct cost center,FINANCE
+what project code should i use,FINANCE
+what is financial reporting,FINANCE
+when do financial reports come out,FINANCE
+where can i see financial statements,FINANCE
+what is on the p&l,FINANCE
+what is profit and loss statement,FINANCE
+what is the income statement,FINANCE
+what is the balance sheet,FINANCE
+what is cash flow statement,FINANCE
+how do i read financial statements,FINANCE
+what are our financial metrics,FINANCE
+what kpis do we track,FINANCE
+how is the company performing financially,FINANCE
+are we profitable,FINANCE
+when do i start,GENERAL
+what time should i arrive on first day,GENERAL
+where do i go on my first day,GENERAL
+what should i bring on first day,GENERAL
+what happens on my first day,GENERAL
+is there an orientation,GENERAL
+what is onboarding,GENERAL
+how long is onboarding,GENERAL
+what happens during onboarding,GENERAL
+who do i meet on first day,GENERAL
+will i meet my manager on day one,GENERAL
+do i get a tour of the office,GENERAL
+what equipment will i get,GENERAL
+do i get a laptop,GENERAL
+what computer will i receive,GENERAL
+will i get a monitor,GENERAL
+what about a mouse and keyboard,GENERAL
+do i get headphones,GENERAL
+will i get a phone,GENERAL
+what office supplies do i get,GENERAL
+can i request additional equipment,GENERAL
+how do i get a second monitor,GENERAL
+what is the equipment request process,GENERAL
+who do i contact for equipment,GENERAL
+what is my email address,GENERAL
+how do i access my email,GENERAL
+what is my username,GENERAL
+how do i log in,GENERAL
+what is my password,GENERAL
+how do i reset my password,GENERAL
+i forgot my password,GENERAL
+what systems do i need access to,GENERAL
+how do i get system access,GENERAL
+when will i have access to everything,GENERAL
+how long does it take to get access,GENERAL
+who sets up my accounts,GENERAL
+what is the it helpdesk number,GENERAL
+how do i contact it support,GENERAL
+what if i have technical issues,GENERAL
+my laptop isnt working,GENERAL
+i cant log in,GENERAL
+where is the it support email,GENERAL
+is there it chat support,GENERAL
+what are it support hours,GENERAL
+is there after hours it support,GENERAL
+what is the vpn,GENERAL
+how do i connect to vpn,GENERAL
+do i need vpn,GENERAL
+when should i use vpn,GENERAL
+how do i install vpn,GENERAL
+what collaboration tools do we use,GENERAL
+do we use slack or teams,GENERAL
+how do i join slack,GENERAL
+what slack channels should i join,GENERAL
+is there a general channel,GENERAL
+how do i find people on slack,GENERAL
+what is zoom,GENERAL
+how do i join zoom meetings,GENERAL
+do i need to download zoom,GENERAL
+what video conferencing do we use,GENERAL
+how do i schedule a meeting,GENERAL
+what calendar system do we use,GENERAL
+do we use google calendar or outlook,GENERAL
+how do i share my calendar,GENERAL
+where do i park,GENERAL
+is there employee parking,GENERAL
+how much does parking cost,GENERAL
+do i need a parking pass,GENERAL
+how do i get a parking pass,GENERAL
+where is visitor parking,GENERAL
+is parking free,GENERAL
+what about street parking,GENERAL
+is there a parking garage,GENERAL
+how do i get a badge,GENERAL
+when will i receive my badge,GENERAL
+what is the badge for,GENERAL
+do i need my badge every day,GENERAL
+what if i forget my badge,GENERAL
+i lost my badge,GENERAL
+how do i replace my badge,GENERAL
+does my badge open all doors,GENERAL
+what areas can i access,GENERAL
+how do i get access to conference rooms,GENERAL
+where is the office located,GENERAL
+what is the office address,GENERAL
+how do i get to the office,GENERAL
+is there public transportation nearby,GENERAL
+what is the nearest subway station,GENERAL
+is the office near a bus stop,GENERAL
+what are office hours,GENERAL
+what time does the office open,GENERAL
+what time does the office close,GENERAL
+do i need to work specific hours,GENERAL
+what are core hours,GENERAL
+is there flexible scheduling,GENERAL
+can i work different hours,GENERAL
+where do i sit,GENERAL
+do i have an assigned desk,GENERAL
+is there hot desking,GENERAL
+can i choose my desk,GENERAL
+where is my workspace,GENERAL
+where are the restrooms,GENERAL
+where is the kitchen,GENERAL
+where is the break room,GENERAL
+is there free coffee,GENERAL
+what snacks are available,GENERAL
+is there free food,GENERAL
+where can i eat lunch,GENERAL
+is there a cafeteria,GENERAL
+where can i get lunch nearby,GENERAL
+what restaurants are close,GENERAL
+is there a fridge i can use,GENERAL
+can i store food in the fridge,GENERAL
+is there a microwave,GENERAL
+where are conference rooms,GENERAL
+how do i book a conference room,GENERAL
+how do i reserve a meeting room,GENERAL
+what meeting rooms are available,GENERAL
+how far in advance can i book rooms,GENERAL
+is there a room booking system,GENERAL
+where are the phone booths,GENERAL
+are there private call rooms,GENERAL
+where can i take a private call,GENERAL
+what is the company mission,GENERAL
+what are our company values,GENERAL
+what does the company do,GENERAL
+what products do we make,GENERAL
+what services do we offer,GENERAL
+who are our customers,GENERAL
+who are our competitors,GENERAL
+what is our market position,GENERAL
+what is the company vision,GENERAL
+what are our strategic goals,GENERAL
+where can i learn about company history,GENERAL
+when was the company founded,GENERAL
+who founded the company,GENERAL
+how many employees do we have,GENERAL
+how big is the company,GENERAL
+where are our offices,GENERAL
+do we have international offices,GENERAL
+what is company culture like,GENERAL
+how would you describe the culture,GENERAL
+what is it like to work here,GENERAL
+is the culture collaborative,GENERAL
+what makes this company special,GENERAL
+why do people work here,GENERAL
+what are company events,GENERAL
+are there team building activities,GENERAL
+does the company have parties,GENERAL
+is there a holiday party,GENERAL
+what social events happen,GENERAL
+are there happy hours,GENERAL
+what is the annual company retreat,GENERAL
+who is my manager,GENERAL
+how do i contact my manager,GENERAL
+what is my managers email,GENERAL
+when do i meet with my manager,GENERAL
+how often are one on ones,GENERAL
+what should i discuss in one on ones,GENERAL
+who do i report to,GENERAL
+what is the reporting structure,GENERAL
+where is the org chart,GENERAL
+can i see the organization chart,GENERAL
+how is the company organized,GENERAL
+what teams are there,GENERAL
+what departments exist,GENERAL
+who is on my team,GENERAL
+how many people on my team,GENERAL
+who are my teammates,GENERAL
+how do i find coworkers,GENERAL
+is there an employee directory,GENERAL
+where can i find contact information,GENERAL
+how do i look up someone,GENERAL
+how do i find peoples email,GENERAL
+what is the email format,GENERAL
+who is the ceo,GENERAL
+who is in leadership,GENERAL
+who are the executives,GENERAL
+who is the cto,GENERAL
+who is the cfo,GENERAL
+who runs hr,GENERAL
+who is the head of engineering,GENERAL
+how do i contact hr,GENERAL
+what is the hr email,GENERAL
+who do i talk to about hr issues,GENERAL
+where is the hr department,GENERAL
+what are hr hours,GENERAL
+can i schedule time with hr,GENERAL
+who is my hr business partner,GENERAL
+what does hr help with,GENERAL
+who handles payroll,GENERAL
+who do i ask about benefits,GENERAL
+who handles it requests,GENERAL
+who is the it manager,GENERAL
+who runs facilities,GENERAL
+who is the office manager,GENERAL
+who do i contact for office supplies,GENERAL
+how do i order supplies,GENERAL
+where do i get pens and paper,GENERAL
+can i order my own supplies,GENERAL
+is there a supply closet,GENERAL
+where are office supplies,GENERAL
+what is the first week like,GENERAL
+what should i expect in week one,GENERAL
+what training will i receive,GENERAL
+is there new hire training,GENERAL
+what courses do i need to take,GENERAL
+is training mandatory,GENERAL
+when do i complete training,GENERAL
+how long does training take,GENERAL
+what is the 30 60 90 day plan,GENERAL
+what are my goals for first 30 days,GENERAL
+what should i accomplish in 90 days,GENERAL
+when is my first performance review,GENERAL
+is there a 90 day review,GENERAL
+what is the probation period,GENERAL
+am i on probation,GENERAL
+how long is probation,GENERAL
+will i have a mentor,GENERAL
+do you assign mentors,GENERAL
+who is my onboarding buddy,GENERAL
+will someone help me get started,GENERAL
+who can i ask questions,GENERAL
+what if i have questions,GENERAL
+who should i go to for help,GENERAL
+is it ok to ask questions,GENERAL
+what questions should i ask,GENERAL
+where can i find information,GENERAL
+is there a company wiki,GENERAL
+where is documentation,GENERAL
+is there a knowledge base,GENERAL
+where do i find company policies,GENERAL
+where is the employee handbook,GENERAL
+how do i access the handbook,GENERAL
+what policies should i know,GENERAL
+what rules should i be aware of,GENERAL
+what cant i do at work,GENERAL
+what is expected of me,GENERAL
+what are my responsibilities,GENERAL
+what is my job description,GENERAL
+what will i be working on,GENERAL
+what projects will i work on,GENERAL
+what are my deliverables,GENERAL
+how will success be measured,GENERAL
+what are the success metrics,GENERAL
+how do i know if im doing well,GENERAL
+what feedback will i get,GENERAL
+how often do i get feedback,GENERAL
+is feedback continuous,GENERAL
+what is the feedback culture,GENERAL
+can i give feedback to my manager,GENERAL
+is there 360 feedback,GENERAL
+how does peer feedback work,GENERAL
+what are working hours,GENERAL
+what time should i arrive,GENERAL
+what time can i leave,GENERAL
+how many hours should i work,GENERAL
+is overtime expected,GENERAL
+do people work late,GENERAL
+what is work life balance like,GENERAL
+do people work weekends,GENERAL
+is it ok to leave at 5,GENERAL
+what is the meeting culture,GENERAL
+are there a lot of meetings,GENERAL
+how many meetings per week,GENERAL
+what meetings will i attend,GENERAL
+are meetings required,GENERAL
+can i decline meetings,GENERAL
+what is expected in meetings,GENERAL
+should i have my camera on,GENERAL
+is video required for meetings,GENERAL
+what is the communication style,GENERAL
+is communication formal or informal,GENERAL
+how do people communicate here,GENERAL
+do people use email or slack more,GENERAL
+when should i email vs slack,GENERAL
+what is response time expectation,GENERAL
+how quickly should i respond,GENERAL
+do i need to respond immediately,GENERAL
+what if i cant respond right away,GENERAL
+is there an after hours expectation,GENERAL
+do i need to check email after hours,GENERAL
+do people work after 5pm,GENERAL
+what is the unwritten culture,GENERAL
+what should i know thats not written,GENERAL
+what are the unspoken rules,GENERAL
+what do i need to know to fit in,GENERAL
+how do i succeed here,GENERAL
+what makes someone successful here,GENERAL
+what traits are valued,GENERAL
+what behaviors are rewarded,GENERAL
+how do i get promoted,GENERAL
+what does it take to get promoted,GENERAL
+how long until promotion,GENERAL
+what is the promotion timeline,GENERAL
+are there growth opportunities,GENERAL
+can i advance my career here,GENERAL
+what career paths exist,GENERAL
+where can my career go,GENERAL
