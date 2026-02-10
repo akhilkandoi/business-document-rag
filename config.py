@@ -1,15 +1,11 @@
 #MODEL SETTINGS
-EMBEDDING_MODEL = "nomic-embed-text"
+EMBEDDING_MODEL = "mxbai-embed-large:335m"
 LLM_MODEL = "gemma3:1b"
 OLLAMA_URL = "http://localhost:11434"
 
-#CHUNKING SETTINGs
-CHUNK_SIZE = 400
-CHUNK_OVERLAP = 150
-
 #RETRIEVAL SETTINGs
-SIMILARITY_TOP_K = 4
-RESPONSE_MODE = "compact"
+SIMILARITY_TOP_K = 5
+RESPONSE_MODE = "tree_summarize"
 
 #PATHS
 DATA_DIR = "./data"

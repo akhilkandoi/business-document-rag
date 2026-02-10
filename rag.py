@@ -16,7 +16,7 @@ from llama_index.core import (
     StorageContext,
     PromptTemplate
 )
-from llama_index.core.node_parser import SentenceSplitter
+from llama_index.core.node_parser import SemanticSplitterNodeParser
 from llama_index.llms.ollama import Ollama
 from llama_index.embeddings.ollama import OllamaEmbedding
 from llama_index.vector_stores.chroma import ChromaVectorStore
@@ -29,8 +29,6 @@ from config import (
     COLLECTION_NAME,
     SIMILARITY_TOP_K,
     RESPONSE_MODE,
-    CHUNK_OVERLAP,
-    CHUNK_SIZE
 )
 
 
@@ -154,9 +152,10 @@ class QASystem:
             request_timeout=120.0
         )
 
-        Settings.text_splitter = SentenceSplitter(
-            chunk_size = CHUNK_SIZE,
-            chunk_overlap = CHUNK_OVERLAP
+        Settings.text_splitter = SemanticSplitterNodeParser(
+            buffer_size=1,
+            breakpoint_percentile_threshold=95,
+            embed_model=Settings.embed_model,
         )
 
     def _initialize_vector_store(self) -> None:
@@ -213,8 +212,8 @@ class QASystem:
             filters=filters
         )
         qa_prompt = PromptTemplate(
-            "Use following information to answer the question. Do not mention that you got the information from documents.\n\n"
-            "Contest: \n{context_str}\n\n"
+            "Use following information to answer the question. Do not mention that you got the information from documents. Give full sentence answers.\n\n"
+            "Context: \n{context_str}\n\n"
             "Question: {query_str}\n\n"
             "Answer:"
         )
