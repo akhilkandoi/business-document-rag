@@ -92,7 +92,7 @@ def log_query_metrics(question:str, response, latency:float, category:str='N/A',
 class QueryClassifier:
     """ML-based query classifier for category prediction"""
     def __init__(self):
-        self.classifer = None
+        self.classifier = None
         self.vectorizer = None
         self.is_loaded = False
         self._load_models()

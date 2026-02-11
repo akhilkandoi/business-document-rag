@@ -8,3 +8,5 @@ wdata/
 *.jsonl
 .DS_store
 
+mlflow.db
+mlruns/

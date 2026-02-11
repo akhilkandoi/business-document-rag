@@ -113,8 +113,8 @@ git clone https://github.com/AkhilKandoi/Business-Document-RAG.git
 
 You may use any of your liking, just change the model names in config.py
 
-ollama pull gemma3:1b          (LLM Model)       (~815MB)
-ollama pull nomic-embed-text   (Embedding Model) (~274MB)
+ollama pull gemma3:1b                (LLM Model)       (~815MB)
+ollama pull mxbai-embed-large:335m   (Embedding Model) (~670MB)
 ```
 
 ### 4. Start ollama:
@@ -135,7 +135,7 @@ python rag.py
 
 ## Future Improvements
 - Web-based UI (Streamlit/React)
-- Improved classifier
+- Improved classifier and answer
 - Cloud deployment
 
 ## Tech Stack
