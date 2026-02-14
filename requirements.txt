@@ -12,3 +12,9 @@ pandas
 xgboost
 
 mlflow
+
+fastapi
+uvicorn
+pydantic
+
+streamlit
