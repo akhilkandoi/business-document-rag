@@ -45,3 +45,4 @@ jobs:
             docker-compose up -d --no-deps api frontend
             docker image prune -f
             echo "Deployed: ${{github.sha}}"
+            
