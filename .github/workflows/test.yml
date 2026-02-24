@@ -1,0 +1,49 @@
+name: Test
+
+on:
+  pull-request:
+    branches: [main]
+  
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up python
+        uses: actions/setup-python@v5
+        with: 
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate data and train classifier
+        run: |
+          python label_documents.py
+          python generate_question.py
+          python training_classifier.py
+
+
+
+      - name: Run classifier tests
+        run: python test_classifier.py
+        # This will fail if models/ folder doesn't exist yet.
+        # That's intentional — forces you to commit trained models
+        # or generate them in CI before testing.
+
+      - name: Check API starts without error
+        run: |
+          # start api in background, wait, hit health endpoint, kill it
+          timeout 30 python api.py &
+          sleep 10
+          curl -f http://localhost:8000/health || exit 1
+          kill %1
+        env: 
+          # point to a fake ollama so api starts even without it
+          OLLAMA_URL: http://localhost:11434
+      
+      - name: Docker build check
+        run: docker build -t rag-test .

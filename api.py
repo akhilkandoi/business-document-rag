@@ -5,7 +5,7 @@ from typing import Optional, List
 from contextlib import asynccontextmanager
 import uvicorn
 from rag import QASystem, check_ollama
-
+from prometheus_fastapi_instrumentator import Instrumentator
 
 qa_system = None
 
@@ -34,6 +34,8 @@ app = FastAPI(
     version="1.0.0",
     lifespan = lifespan
 )
+
+Instrumentator().instrument(app).expose(app)
 
 app.add_middleware(
     CORSMiddleware,

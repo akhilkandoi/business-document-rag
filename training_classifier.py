@@ -301,6 +301,34 @@ elif best_cv_name == "XGBoost":
 
 print(f"Trained {best_cv_name} on full dataset. Also fitted Vectorizer on full dataset")
 
+#saving model
+os.makedirs("./models", exist_ok=True)
+joblib.dump(final_model, "./models/document_classifier.pkl")
+joblib.dump(final_vectorizer, "./models/tfidf_vectorizer.pkl")
+
+metadata={
+    "model_type": best_cv_name,
+    "selection_criterion": "precision",
+    "single_split":{
+        "precision": float(best_prec),
+        "accuracy": float(best_acc),
+        "recall": float(best_rec),
+        "f1_score": float(best_f1),
+    },
+    "cross_validation": {
+        "cv_precision_mean": float(best_cv_metrics['cv_precision_mean']),
+        "cv_precision_std": float(best_cv_metrics['cv_precision_std']),
+        "cv_accuracy": float(best_cv_metrics['cv_accuracy']),
+        "overfitting_gap": float(best_cv_metrics['train_test_gap'])
+    },
+    "num_features": X_train_vec.shape[1],
+    "categories": df['label'].unique().tolist(),
+    "training_samples": len(df)
+}
+
+with open("./models/classifier_metadata.json", "w") as f:
+    json.dump(metadata, f, indent=2)
+
 with mlflow.start_run(run_name=f"{best_cv_name}_CrossValidation"):
 
     mlflow.log_param("model_type", best_cv_name)
@@ -324,10 +352,7 @@ with mlflow.start_run(run_name=f"{best_cv_name}_CrossValidation"):
 
     mlflow.set_tag("note", "Final Production Model - metrics from CV")
 
-#saving model
-os.makedirs("./models", exist_ok=True)
-joblib.dump(final_model, "./models/document_classifier.pkl")
-joblib.dump(final_vectorizer, "./models/tfidf_vectorizer.pkl")
+
 
 print(f"Registering {final_model} in MLflow model registry...")
 
@@ -359,28 +384,7 @@ if runs:
 else:
     print("Could not find run to register")
 
-metadata={
-    "model_type": best_cv_name,
-    "selection_criterion": "precision",
-    "single_split":{
-        "precision": float(best_prec),
-        "accuracy": float(best_acc),
-        "recall": float(best_rec),
-        "f1_score": float(best_f1),
-    },
-    "cross_validation": {
-        "cv_precision_mean": float(best_cv_metrics['cv_precision_mean']),
-        "cv_precision_std": float(best_cv_metrics['cv_precision_std']),
-        "cv_accuracy": float(best_cv_metrics['cv_accuracy']),
-        "overfitting_gap": float(best_cv_metrics['train_test_gap'])
-    },
-    "num_features": X_train_vec.shape[1],
-    "categories": df['label'].unique().tolist(),
-    "training_samples": len(df)
-}
 
-with open("./models/classifier_metadata.json", "w") as f:
-    json.dump(metadata, f, indent=2)
 
 print(f"Best model: {best_cv_name}")
 print("Models saved in './models' directory locally and logged to MLflow!")

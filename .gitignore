@@ -2,11 +2,18 @@ venv/
 __pycache__/
 *.pyc
 .env
-chroma_db/
-wdata/
-*.log
-*.jsonl
-.DS_store
 
-mlflow.db
+chroma_db/
 mlruns/
+mlflow.db
+rag_system.log
+query_metrics.jsonl
+
+models/*.pkl
+models/*.joblib
+
+data/*.pdf
+data/processed/
+
+.DS_STORE
+Thumbs.db

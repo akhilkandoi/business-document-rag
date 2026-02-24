@@ -1,7 +1,9 @@
+import os
+
 #MODEL SETTINGS
 EMBEDDING_MODEL = "mxbai-embed-large:335m"
 LLM_MODEL = "gemma3:1b"
-OLLAMA_URL = "http://localhost:11434"
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 
 #RETRIEVAL SETTINGs
 SIMILARITY_TOP_K = 5
