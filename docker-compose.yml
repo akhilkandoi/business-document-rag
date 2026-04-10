@@ -73,36 +73,7 @@ services:
       - rag-network
     restart: unless-stopped
 
-  prometheus:
-    image: prom/prometheus:latest
-    ports:
-      - "9090:9090"
-    volumes:
-      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
-      - prometheus_data:/prometheus
-    command:
-      - '--config.file=/etc/prometheus/prometheus.yml'
-      - '--storage.tsdb.path=/prometheus'
-    networks:
-      - rag-network
-    restart: unless-stopped
-
-  grafana:
-    image: grafana/grafana:latest
-    ports:
-      - "3001:3000"
-    environment:
-      - GF_SECURITY_ADMIN_PASSWORD=admin
-      - GF_USERS_ALLOW_SIGN_UP=false
-    volumes:
-      - grafana_data:/var/lib/grafana
-      - ./monitoring/grafana/datasources.yml:/etc/grafana/provisioning/datasources/datasources.yml
-      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
-    depends_on:
-      - prometheus
-    networks:
-      - rag-network
-    restart: unless-stopped
+  
 
 networks:
   rag-network:

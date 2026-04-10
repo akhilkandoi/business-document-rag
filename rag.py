@@ -144,7 +144,6 @@ class QASystem:
         Settings.embed_model = OllamaEmbedding(
             model_name=EMBEDDING_MODEL ,
             base_url=OLLAMA_URL,
-            temperature=0.2,
             request_timeout=120.0
         )
         Settings.llm = Ollama(

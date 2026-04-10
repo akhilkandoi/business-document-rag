@@ -20,7 +20,7 @@ Common Categories:
 
 - HR           (employee handbook, benefits, polices)
 - ENGINEERING  (code guidelines, API docs, tech specs)
-- FINACE       (expence polices, budgets, invoices)
+- FINANCE       (expence polices, budgets, invoices)
 - LEGAL        (contracts, terms of service)
 - GENERAL      (onboarding, FAQs, misc)
 

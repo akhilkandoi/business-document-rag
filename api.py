@@ -5,26 +5,20 @@ from typing import Optional, List
 from contextlib import asynccontextmanager
 import uvicorn
 from rag import QASystem, check_ollama
-from prometheus_fastapi_instrumentator import Instrumentator
+import asyncio
 
 qa_system = None
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    #startup
     global qa_system
-    try:
-        if not check_ollama():
-            print("warning: ollama is not running")
-        else:
-            print("Initializing QA system...")
-            qa_system=QASystem()
-            print("QA System ready!")
-    except Exception as e:
-        print(f"Failed to initialize QA system: {str(e)}")
-
+    for attempt in range(5):
+        if check_ollama():
+            qa_system = QASystem()
+            break
+        print(f"Waiting for Ollama... attempt {attempt+1}/5")
+        await asyncio.sleep(10)
     yield
-
     print("shutting down")
 
 
@@ -35,7 +29,6 @@ app = FastAPI(
     lifespan = lifespan
 )
 
-Instrumentator().instrument(app).expose(app)
 
 app.add_middleware(
     CORSMiddleware,

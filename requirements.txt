@@ -28,5 +28,3 @@ python-dotenv==1.2.1
 streamlit==1.54.0
 requests==2.32.5
 
-# Monitoring
-prometheus-fastapi-instrumentator==7.0.0

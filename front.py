@@ -1,8 +1,9 @@
 import streamlit as st
 import time
 import requests
+import os
 
-API_URL = "http://localhost:8000"
+API_URL = os.getenv("API_URL", "http://localhost:8000")
 
 st.set_page_config(
     page_title="Document Q&A",

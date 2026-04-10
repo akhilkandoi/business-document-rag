@@ -210,7 +210,7 @@ pipelines = {
     ]),
     'XGBoost':Pipeline([
         ('tfidf', TfidfVectorizer(max_features=2500, ngram_range=(1,2), stop_words='english')),
-        ('clf', XGBClassifier(n_estimators=100, random_state=42, use_label_encoder=False, eval_metric='mlogloss'))
+        ('clf', XGBClassifier(n_estimators=100, random_state=42, eval_metric='mlogloss'))
     ]),
 }
 

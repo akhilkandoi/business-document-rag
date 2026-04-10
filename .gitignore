@@ -9,11 +9,11 @@ mlflow.db
 rag_system.log
 query_metrics.jsonl
 
-models/*.pkl
-models/*.joblib
+# Ignore all model files
+models/
 
-data/*.pdf
+# Keep PDFs, ignore processed files (csv, json)
 data/processed/
 
-.DS_STORE
+.DS_Store
 Thumbs.db
