@@ -95,15 +95,31 @@ class QueryClassifier:
         self.classifier = None
         self.vectorizer = None
         self.is_loaded = False
+        self.is_xgboost = False
+        self.categories = []   # ordered label list for XGBoost int->str decoding
         self._load_models()
     
     def _load_models(self)->None:
-        """Load trained classfier and vectorizer"""
+        """Load trained classifier and vectorizer"""
         try:
             self.classifier = joblib.load("./models/document_classifier.pkl")
             self.vectorizer = joblib.load("./models/tfidf_vectorizer.pkl")
+
+            # Detect XGBoost so we can decode integer predictions back to strings.
+            # The metadata file stores the exact category list in the same order
+            # LabelEncoder used during training, so index == encoded int.
+            try:
+                with open("./models/classifier_metadata.json") as f:
+                    meta = json.load(f)
+                model_type = meta.get("model_type", "")
+                self.is_xgboost = model_type == "XGBoost"
+                self.categories = meta.get("categories", [])
+            except (FileNotFoundError, json.JSONDecodeError):
+                self.is_xgboost = False
+                self.categories = []
+
             self.is_loaded = True
-            print("Classifier loaded")
+            print(f"Classifier loaded ({meta.get('model_type', 'unknown')})")
         except FileNotFoundError:
             print("No Classifier found")
             self.is_loaded = False
@@ -113,7 +129,14 @@ class QueryClassifier:
         if not self.is_loaded:
             return "ALL", 0.0
         question_vec = self.vectorizer.transform([question])
-        category = self.classifier.predict(question_vec)[0]
+        raw = self.classifier.predict(question_vec)[0]
+
+        # XGBoost was trained on LabelEncoder-encoded ints; convert back to string.
+        if self.is_xgboost and self.categories:
+            category = self.categories[int(raw)]
+        else:
+            category = str(raw)
+
         proba = self.classifier.predict_proba(question_vec)[0]
         confidence = float(max(proba))
 

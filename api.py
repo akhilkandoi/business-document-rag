@@ -1,9 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from typing import Optional, List
 from contextlib import asynccontextmanager
 import uvicorn
+import json as json_lib
 from rag import QASystem, check_ollama
 import asyncio
 
@@ -77,7 +79,7 @@ async def health_check():
     }
 
 #query endpoint
-@app.post("/query", response_model=QueryResponse)
+@app.post("/query")
 async def query_document(request: QueryRequest):
     #query the document collection
     if qa_system is None:
@@ -91,21 +93,51 @@ async def query_document(request: QueryRequest):
     if len(request.question) > 500:
         raise HTTPException(status_code=400, detail="Question too long")
     try:
-        #query the system
         result = qa_system.query(request.question, stream=request.stream)
 
-        #format sources
-        sources=[]
-        for node in result['sources']:
-            sources.append({
-                "filename":node.metadata.get('file_name', 'Unkown'),
+        # --- streaming branch ---
+        # Emits SSE events:
+        #   data: {"type":"chunk","text":"..."}   — one per token
+        #   data: {"type":"done","sources":[...],"category":"...","confidence":0.9,"latency":1.2}
+        if request.stream:
+            def generate():
+                for chunk in result['answer']:   # response_gen is a plain iterator
+                    payload = json_lib.dumps({"type": "chunk", "text": chunk})
+                    yield f"data: {payload}\n\n"
+
+                sources = [
+                    {
+                        "filename": node.metadata.get('file_name', 'Unknown'),
+                        "page": node.metadata.get('page_label', 'N/A'),
+                        "score": round(node.score, 3),
+                        "text": node.text[:200] + "...",
+                        "category": node.metadata.get('category', 'N/A')
+                    }
+                    for node in result['sources']
+                ]
+                done_payload = json_lib.dumps({
+                    "type": "done",
+                    "sources": sources,
+                    "category": result['category'],
+                    "confidence": result['confidence'],
+                    "latency": result['latency']
+                })
+                yield f"data: {done_payload}\n\n"
+
+            return StreamingResponse(generate(), media_type="text/event-stream")
+
+        # --- non-streaming branch (unchanged) ---
+        sources = [
+            {
+                "filename": node.metadata.get('file_name', 'Unknown'),
                 "page": node.metadata.get('page_label', 'N/A'),
                 "score": round(node.score, 3),
                 "text": node.text[:200] + "...",
                 "category": node.metadata.get('category', 'N/A')
-            })
-        
-        return{
+            }
+            for node in result['sources']
+        ]
+        return {
             "answer": result['answer'],
             "sources": sources,
             "category": result['category'],

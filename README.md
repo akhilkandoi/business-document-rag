@@ -13,7 +13,7 @@ Supports category-aware retrieval, semantic search, confidence-based filtering, 
 - Metadata-filtered semantic search using ChromaDB
 - Local LLM inference via Ollama (no API keys, no cost)
 - FastAPI REST backend with health and query endpoints
-- Streamlit web frontend with chat history
+- Streamlit web frontend with chat history display
 - Streaming and non-streaming response modes
 - Query metrics logging (latency, confidence, sources) to JSONL
 - Persistent vector store — no re-indexing on every run
@@ -50,8 +50,7 @@ BUSINESS-RAG-WITH-ML/
 ├── data/
 │   ├── processed/
 │   │   ├── document_labels.json        # Category labels per PDF
-│   │   ├── question_training_data.csv  # Training data for classifier
-│   │   └── training_data.csv
+│   │   └── question_training_data.csv  # Training data for classifier
 │   ├── benefits_guide.pdf
 │   ├── employee_handbook.pdf
 │   ├── engineering_handbook.pdf
@@ -77,8 +76,8 @@ BUSINESS-RAG-WITH-ML/
 ├── docker-compose.yml                  # Full stack container setup
 ├── Dockerfile
 ├── requirements.txt
-├── query_metrics.jsonl                 # Query performance logs
-└── rag_system.log                      # System logs
+├── query_metrics.jsonl                 # Query performance logs (auto-created)
+└── rag_system.log                      # System logs (auto-created)
 ```
 
 ---
@@ -88,8 +87,8 @@ BUSINESS-RAG-WITH-ML/
 ### 1. Document Indexing
 - PDFs are loaded from `data/`
 - Each document is tagged with a category from `document_labels.json`
-- Text is chunked using semantic splitting and embedded via `mxbai-embed-large`
-- Embeddings are stored persistently in ChromaDB
+- Text is chunked using semantic splitting and embedded via `nomic-embed-text`
+- Embeddings are stored persistently in ChromaDB — no re-indexing on restart
 
 ### 2. Query Classification
 - User question is vectorized using TF-IDF
@@ -98,7 +97,7 @@ BUSINESS-RAG-WITH-ML/
 
 ### 3. Retrieval & Answering
 - Top-K semantically similar chunks are retrieved from ChromaDB
-- Context is passed to the LLM (gemma3:1b via Ollama)
+- Context is passed to the LLM (qwen2.5:1.5b via Ollama)
 - Answer is returned along with source metadata (filename, page, score, category)
 
 ---
@@ -119,11 +118,9 @@ BUSINESS-RAG-WITH-ML/
 ### Option A — Docker (Recommended)
 
 ```bash
-# Clone the repo
 git clone https://github.com/AkhilKandoi/Business-Document-RAG.git
 cd Business-Document-RAG
 
-# Start everything
 docker compose up --build
 ```
 
@@ -161,10 +158,8 @@ Edit `label_documents.py` to map your PDF filenames to categories, then run:
 python label_documents.py
 ```
 
-#### 4. Generate training data and train the classifier
+#### 4. train the classifier
 ```bash
-python generate_question.py
-python prep_training_data.py
 python training_classifier.py
 ```
 
@@ -174,7 +169,12 @@ mlflow ui
 # Open http://localhost:5000
 ```
 
-#### 5. Run the system
+#### 5. (Optional) Evaluate the classifier
+```bash
+python test_classifier.py
+```
+
+#### 6. Run the system
 
 **CLI mode:**
 ```bash
@@ -192,6 +192,19 @@ streamlit run front.py
 
 ---
 
+## Embedding Model Warning
+
+The embedding model used to build `chroma_db/` must match `EMBEDDING_MODEL` in `config.py`. If you change the model, delete the existing vector store and re-index:
+
+```bash
+rm -rf ./chroma_db
+python rag.py
+```
+
+Mismatched embedding dimensions will cause a runtime error on the first query.
+
+---
+
 ## API Endpoints
 
 | Method | Endpoint | Description |
@@ -202,14 +215,14 @@ streamlit run front.py
 | `POST` | `/query` | Ask a question |
 | `GET` | `/docs` | Swagger interactive docs |
 
-### Example query
+### Non-streaming query
 ```bash
 curl -X POST http://localhost:8000/query \
   -H "Content-Type: application/json" \
   -d '{"question": "What is the parental leave policy?", "stream": false}'
 ```
 
-### Example response
+Response:
 ```json
 {
   "answer": "Employees are entitled to 16 weeks of paid parental leave...",
@@ -226,6 +239,21 @@ curl -X POST http://localhost:8000/query \
   "confidence": 0.94,
   "latency": 2.13
 }
+```
+
+### Streaming query
+```bash
+curl -X POST http://localhost:8000/query \
+  -H "Content-Type: application/json" \
+  -H "Accept: text/event-stream" \
+  -d '{"question": "What is the code review process?", "stream": true}'
+```
+
+Tokens arrive as SSE events:
+```
+data: {"type": "chunk", "text": "The code review"}
+data: {"type": "chunk", "text": " process requires..."}
+data: {"type": "done", "sources": [...], "category": "ENGINEERING", "confidence": 0.91, "latency": 1.84}
 ```
 
 ---
@@ -248,7 +276,7 @@ CHROMA_DB_PATH  = "./chroma_db"
 COLLECTION_NAME = "techcorp_docs"
 ```
 
-To swap models, change `EMBEDDING_MODEL` or `LLM_MODEL` to any model available in Ollama.
+To swap models, change `EMBEDDING_MODEL` or `LLM_MODEL` to any model available via `ollama list`. Remember to delete `chroma_db/` if you change `EMBEDDING_MODEL`.
 
 ---
 
@@ -269,6 +297,11 @@ Every query is automatically logged to `query_metrics.jsonl`:
 ```
 
 General system events and errors are logged to `rag_system.log`.
+
+MLflow experiment results are stored in `mlflow.db` and viewable via:
+```bash
+mlflow ui   # http://localhost:5000
+```
 
 ---
 

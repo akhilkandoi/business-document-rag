@@ -1,8 +1,8 @@
 import os
 
 #MODEL SETTINGS
-EMBEDDING_MODEL = "mxbai-embed-large:335m"
-LLM_MODEL = "gemma3:1b"
+EMBEDDING_MODEL = "nomic-embed-text:latest"
+LLM_MODEL = "qwen2.5:1.5b"
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 
 #RETRIEVAL SETTINGs
