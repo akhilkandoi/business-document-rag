@@ -2,7 +2,7 @@ import pandas as pd
 
 
 training_questions = [
-    # HR QUESTIONS (~300)
+    # HR QUESTIONS (~300), AI-generated
     {"text": "how many vacation days do i get", "label": "HR"},
     {"text": "what is the pto policy", "label": "HR"},
     {"text": "how do i request time off", "label": "HR"},

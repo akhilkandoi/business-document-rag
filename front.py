@@ -67,11 +67,11 @@ st.session_state.api_ready = system_ready
 
 # Display status in sidebar
 if system_ready:
-    st.sidebar.success("✅ API Ready")
+    st.sidebar.success("API Ready")
 elif ollama_running:
-    st.sidebar.warning("⏳ Loading System...")
+    st.sidebar.warning("Loading System...")
 else:
-    st.sidebar.error("❌ API Not Running")
+    st.sidebar.error("API Not Running")
     st.sidebar.info("Start API with:\n`python api.py`")
 
 st.sidebar.divider()
@@ -97,11 +97,11 @@ for message in st.session_state.messages:
             meta = message["metadata"]
             col1, col2, col3 = st.columns(3)
             with col1:
-                st.caption(f"📂 {meta.get('category', 'N/A')}")
+                st.caption(f"{meta.get('category', 'N/A')}")
             with col2:
-                st.caption(f"🎯 {meta.get('confidence', 0):.1%}")
+                st.caption(f"{meta.get('confidence', 0):.1%}")
             with col3:
-                st.caption(f"⚡ {meta.get('latency', 0):.2f}s")
+                st.caption(f"{meta.get('latency', 0):.2f}s")
 
 # Chat input
 if system_ready:
@@ -139,8 +139,8 @@ if system_ready:
                 # Rerun to show the message with metadata
                 st.rerun()
 else:
-    st.warning("⚠️ API is not ready. Please start the API server:")
+    st.warning("API is not ready. Please start the API server:")
     st.code("python api.py", language="bash")
     
-    if st.button("🔄 Retry Connection"):
+    if st.button("Retry Connection"):
         st.rerun()

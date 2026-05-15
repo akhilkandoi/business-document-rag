@@ -105,9 +105,7 @@ class QueryClassifier:
             self.classifier = joblib.load("./models/document_classifier.pkl")
             self.vectorizer = joblib.load("./models/tfidf_vectorizer.pkl")
 
-            # Detect XGBoost so we can decode integer predictions back to strings.
-            # The metadata file stores the exact category list in the same order
-            # LabelEncoder used during training, so index == encoded int.
+
             try:
                 with open("./models/classifier_metadata.json") as f:
                     meta = json.load(f)
